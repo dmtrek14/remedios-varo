@@ -2,37 +2,15 @@ export const translations = {
   en: {
     nav: {
       home: "Home",
-      // research: "Research",
-      // papers: "Papers",
-      // blog: "Blog",
-      // cv: "CV",
       life: "Life",
       work: "Work",
+      facts: "Interesting facts",
+      references: "References and more info",
     },
     home: {
       researchAreas: "Research Areas",
       recentPublications: "Recent Publications",
     },
-    // research: {
-    //   title: "Research",
-    //   overview: "Research Overview",
-    // },
-    // papers: {
-    //   title: "Papers",
-    //   publications: "Publications",
-    // },
-    // blog: {
-    //   title: "Blog",
-    //   readMore: "Read more",
-    //   publishedOn: "Published on",
-    // },
-    // cv: {
-    //   title: "Curriculum Vitae",
-    //   education: "Education",
-    //   experience: "Experience",
-    //   publications: "Publications",
-    //   awards: "Awards",
-    // },
     common: {
       loading: "Loading...",
       error: "Error",
@@ -43,37 +21,15 @@ export const translations = {
   es: {
     nav: {
       home: "Inicio",
-      research: "Investigación",
-      papers: "Artículos",
-      blog: "Blog",
-      cv: "CV",
       life: "Vida",
       work: "Obra",
+      facts: "Realidades interesantes",
+      references: "Referencias y más información",
     },
     home: {
       researchAreas: "Áreas de Investigación",
       recentPublications: "Publicaciones Recientes",
     },
-    // research: {
-    //   title: "Investigación",
-    //   overview: "Resumen de Investigación",
-    // },
-    // papers: {
-    //   title: "Artículos",
-    //   publications: "Publicaciones",
-    // },
-    // blog: {
-    //   title: "Blog",
-    //   readMore: "Leer más",
-    //   publishedOn: "Publicado el",
-    // },
-    // cv: {
-    //   title: "Currículum Vitae",
-    //   education: "Educación",
-    //   experience: "Experiencia",
-    //   publications: "Publicaciones",
-    //   awards: "Premios",
-    // },
     common: {
       loading: "Cargando...",
       error: "Error",
