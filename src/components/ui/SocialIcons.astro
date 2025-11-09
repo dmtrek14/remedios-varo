@@ -1,0 +1,23 @@
+---
+// import Envelope from '@/assets/social-icons/envelope.svg'
+import VaroAves from '@/assets/social-icons/varo-aves.svg'
+
+import { social } from '@/settings'
+
+const activeSocial = Object.keys(social).filter((key) => social[key as keyof typeof social] !== '')
+const calculatedIconSize = activeSocial.length <= 5 ? 'size-8' : activeSocial.length <= 6 ? 'size-5' : 'size-4'
+const calculatedContainerSize = activeSocial.length <= 5 ? 'size-12' : activeSocial.length <= 6 ? 'size-10' : 'size-8'
+
+---
+
+<div class='flex flex-wrap justify-between items-center'>
+
+    <VaroAves class={calculatedIconSize} fill="currentColor" />
+	<!-- Email -->
+	<!-- {social.email !== '' &&
+		<a href={`mailto:${social.email}`}  class={`${calculatedContainerSize} inline-flex items-center justify-center rounded-xl hover:bg-primary/20 transition-all duration-300`}>
+			<Envelope class={calculatedIconSize} fill="currentColor" />
+		</a>
+	} -->
+
+</div>

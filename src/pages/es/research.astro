@@ -1,0 +1,72 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { profile } from "@/settings";
+import BetterIcon from "@/components/ui/BetterIcon.astro";
+import List from "@/components/ui/List.astro";
+import {RESEARCH_ICONS} from "@/data/researchIcons";
+import { useTranslations, type Locale } from '@/i18n/translations'
+
+const { research_areas } = profile;
+const currentLocale = (Astro.currentLocale || 'es') as Locale
+const t = useTranslations(currentLocale)
+---
+
+<Layout title="Investigación | Dr. Marie Curie">
+  <div class="prose max-w-none">
+    <h1 class="text-3xl font-bold mb-8">Declaración de Investigación</h1>
+
+    <div class="mb-12">
+      <p class="text-lg mb-6">
+        Mi investigación se centra en investigaciones pioneras sobre la radiactividad y el descubrimiento de nuevos elementos radiactivos. A través de técnicas experimentales meticulosas y metodologías innovadoras, mi objetivo es avanzar en nuestra comprensión de los fenómenos radiactivos y sus aplicaciones tanto en física como en química.
+      </p>
+      <p class="text-lg mb-6">
+        Este enfoque interdisciplinario ha llevado a descubrimientos significativos, incluido el aislamiento del polonio y el radio, contribuyendo a los fundamentos de la física nuclear moderna y la radioquímica.
+      </p>
+    </div>
+
+    <h2 class="text-2xl font-bold mb-6">Áreas de Investigación</h2>
+    <div class="grid gap-8 mb-12">
+      {
+        research_areas.map((area) => (
+          <div class="flex gap-6 items-start">
+            <BetterIcon>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke-width="2"
+                class="size-6 stroke-accent"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d={RESEARCH_ICONS[area.field as keyof typeof RESEARCH_ICONS]?.path || RESEARCH_ICONS['computer-science'].path}
+                />
+              </svg>
+            </BetterIcon>
+            <div>
+              <h3 class="text-xl font-semibold mb-2">{area.title}</h3>
+              <p class="text-base">{area.description}</p>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+
+    <List listTitle="Proyectos Actuales" listItems={[
+      {
+        title: "Estudios de Radiactividad",
+        description: "Investigación de propiedades radiactivas en minerales de uranio y aislamiento de nuevos elementos radiactivos."
+      },
+      {
+        title: "Técnicas de Medición",
+        description: "Desarrollo de métodos precisos para medir las emisiones radiactivas y sus propiedades."
+      }
+    ]} />
+
+    <h2 class="text-2xl font-bold mb-6">Impacto de la Investigación</h2>
+    <p class="text-lg mb-6">
+      Mi investigación ha abierto nuevas fronteras en los estudios de radiactividad, conduciendo a aplicaciones prácticas tanto en la investigación científica como en los tratamientos médicos. Los descubrimientos han revolucionado nuestra comprensión de la estructura atómica y los procesos de desintegración radiactiva.
+    </p>
+  </div>
+</Layout>
