@@ -4,6 +4,11 @@ import {profile} from '../../settings'
 import ProfilePictures from '@/assets/profile_pictures.jpg'
 import { template } from '@/settings'
 import { useTranslations, type Locale } from '@/i18n/translations'
+import IconAves from '@/assets/social-icons/varo-aves.svg'
+import IconPsych from '@/assets/social-icons/varo-psych.svg'
+import IconEncuentro from '@/assets/social-icons/varo-encuentro.svg'
+import IconCosmica from '@/assets/varo-cosmica.png'
+import IconGato from '@/assets/varo-gato.png'
 
 const {fullName, title} = profile
 const currentLocale = (Astro.currentLocale || 'es') as Locale
@@ -28,19 +33,33 @@ const localePath = currentLocale === 'es' ? '' : `/${currentLocale}`
 			<div class='mx-4 mt-16'>
 				<ul class='space-y-4 menu grow shrink menu-md overflow-y-auto'>
 					<li>
-                        <a href={`${template.base}${localePath}/`} class='text-lg'>{t('nav.home')}</a>
+                        <a href={`${template.base}${localePath}/`} class='text-lg'>
+                            <Image src={IconGato} alt="" class='w-6 h-6' />
+							{t('nav.home')}</a>
 					</li>
 					<li>
-                        <a href={`${template.base}${localePath}/life`} class='text-lg'>{t('nav.life')}</a>
+                        <a href={`${template.base}${localePath}/life`} class='text-lg flex items-center gap-3'>
+							<Image src={IconAves} alt="" class='w-6 h-6' />
+							{t('nav.life')}
+						</a>
 					</li>
 					<li>
-                        <a href={`${template.base}${localePath}/work`} class='text-lg'>{t('nav.work')}</a>
+                        <a href={`${template.base}${localePath}/work`} class='text-lg flex items-center gap-3'>
+							<Image src={IconPsych} alt="" class='w-6 h-6' />
+							{t('nav.work')}
+						</a>
 					</li>
 					<li>
-                        <a href={`${template.base}${localePath}/facts`} class='text-lg'>{t('nav.facts')}</a>
+                        <a href={`${template.base}${localePath}/facts`} class='text-lg flex items-center gap-3'>
+							<Image src={IconEncuentro} alt="" class='w-6 h-6' />
+							{t('nav.facts')}
+						</a>
                     </li>
                     <li>
-                        <a href={`${template.base}${localePath}/references`} class='text-lg'>{t('nav.references')}</a>
+                        <a href={`${template.base}${localePath}/references`} class='text-lg flex items-center gap-3'>
+							<Image src={IconCosmica} alt="" class='w-6 h-6' />
+							{t('nav.references')}
+						</a>
                     </li>
 				</ul>
 			</div>
