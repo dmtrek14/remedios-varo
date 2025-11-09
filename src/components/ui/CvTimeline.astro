@@ -34,12 +34,12 @@ const { elements, colored } = Astro.props
 					class={`${index % 2 === 0 ? 'timeline-start' : 'timeline-end'} mb-10 md:text-end`}
 				>
 					<time class='font-mono italic'>{element.time}</time>
-					{isExperience(element) && <div class='text-lg font-black'>{element.title}</div>}
-					{isEducation(element) && <div class='text-lg font-black'>{element.degree}</div>}
+					<!-- {isExperience(element) && <div class='text-lg font-black'>{element.title}</div>}
+					{isEducation(element) && <div class='text-lg font-black'>{element.degree}</div>} -->
 					<!-- <div class='text-lg font-black'>{isExperience(element) ? element.title : element.degree}</div> -->
-					<div class='text-lg font-black'>{isLifeEvent(element) ? element.title : ''}</div>
+					<!-- <div class='text-lg font-black'>{isLifeEvent(element) ? element.title : ''}</div> -->
 					<div>{element.description}</div>
-					<div>{isExperience(element) ? element.company : element.school}</div>
+					<!-- <div>{isExperience(element) ? element.company : element.school}</div> -->
 					<div>{element.location}</div>
 				</div>
         <hr class:list={[{ 'bg-accent': colored }]} />

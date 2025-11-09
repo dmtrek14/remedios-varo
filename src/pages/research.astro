@@ -3,7 +3,7 @@ import Layout from "@/layouts/Layout.astro";
 import { profile } from "@/settings";
 import BetterIcon from "@/components/ui/BetterIcon.astro";
 import List from "@/components/ui/List.astro";
-import {RESEARCH_ICONS} from "@/data/researchIcons";
+// import {RESEARCH_ICONS} from "@/data/researchIcons";
 import { useTranslations, type Locale } from '@/i18n/translations'
 
 const { research_areas } = profile;
@@ -29,7 +29,7 @@ const t = useTranslations(currentLocale)
       {
         research_areas.map((area) => (
           <div class="flex gap-6 items-start">
-            <BetterIcon>
+            <!-- <BetterIcon>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -47,7 +47,7 @@ const t = useTranslations(currentLocale)
             <div>
               <h3 class="text-xl font-semibold mb-2">{area.title}</h3>
               <p class="text-base">{area.description}</p>
-            </div>
+            </div> -->
           </div>
         ))
       }

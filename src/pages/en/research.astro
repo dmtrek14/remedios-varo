@@ -3,7 +3,6 @@ import Layout from "@/layouts/Layout.astro";
 import { profile } from "@/settings";
 import BetterIcon from "@/components/ui/BetterIcon.astro";
 import List from "@/components/ui/List.astro";
-import {RESEARCH_ICONS} from "@/data/researchIcons";
 import { useTranslations, type Locale } from '@/i18n/translations'
 
 const { research_areas } = profile;
@@ -30,7 +29,7 @@ const t = useTranslations(currentLocale)
         research_areas.map((area) => (
           <div class="flex gap-6 items-start">
             <BetterIcon>
-              <svg
+              <!-- <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="none"
@@ -42,12 +41,12 @@ const t = useTranslations(currentLocale)
                   stroke-linejoin="round"
                   d={RESEARCH_ICONS[area.field as keyof typeof RESEARCH_ICONS]?.path || RESEARCH_ICONS['computer-science'].path}
                 />
-              </svg>
+              </svg> -->
             </BetterIcon>
-            <div>
+            <!-- <div>
               <h3 class="text-xl font-semibold mb-2">{area.title}</h3>
               <p class="text-base">{area.description}</p>
-            </div>
+            </div> -->
           </div>
         ))
       }

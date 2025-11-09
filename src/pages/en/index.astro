@@ -3,13 +3,12 @@ import Layout from '../../layouts/Layout.astro'
 
 import { profile } from '@/settings'
 import { publications } from '@/data/cv'
-import ProfilePictures from '@/assets/profile_pictures.jpg'
 import Hero from '@/components/ui/Hero.astro'
 import Grid from '@/components/ui/Grid.astro'
 import ArticleList from '@/components/ui/ArticleList.astro'
 import { useTranslations, type Locale } from '@/i18n/translations'
 
-const { fullName, title, institute, research_areas } = profile
+const { fullName, research_areas } = profile
 const currentLocale = (Astro.currentLocale || 'es') as Locale
 const t = useTranslations(currentLocale)
 ---
