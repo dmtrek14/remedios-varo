@@ -31,6 +31,16 @@ export const translations = {
           year: "1916",
           description: "",
         },
+        "varo-life-san-sebastian1.png": {
+          title: "Remedios and her family in San Sebastián",
+          year: "date unknown",
+          description: "",
+        },
+        "varo-life-san-sebastian2.png": {
+          title: "Remedios and her family in San Sebastián",
+          year: "date unknown",
+          description: "",
+        },
         "varo-life-1925.png": {
           title: "Remedios and her grandmother",
           year: "1925",
@@ -62,14 +72,14 @@ export const translations = {
           year: "1941",
           description: "",
         },
-        "varo-life-san-sebastian1.png": {
-          title: "Remedios and her family in San Sebastián",
-          year: "date unknown",
+        "varo-life-1941-toreador.png": {
+          title: "Remedios Varo in a toreador's costume",
+          year: "1941",
           description: "",
         },
-        "varo-life-san-sebastian2.png": {
-          title: "Remedios and her family in San Sebastián",
-          year: "date unknown",
+        "varo-life-1941-passport.png": {
+          title: "Remedios Varo's immigration identity card",
+          year: "1941",
           description: "",
         },
       },
@@ -131,7 +141,7 @@ export const translations = {
         {
           title: "Imprisoned",
           description: "Length and exact location unknown",
-          time: "1940",
+          time: "Winter 1940",
           link: "",
           location: "France",
         },
@@ -273,6 +283,16 @@ export const translations = {
           year: "1916",
           description: "",
         },
+        "varo-life-san-sebastian1.png": {
+          title: "Remedios y su familia en San Sebastián",
+          year: "fecha desconocida",
+          description: "",
+        },
+        "varo-life-san-sebastian2.png": {
+          title: "Remedios y su familia en San Sebastián",
+          year: "fecha desconocida",
+          description: "",
+        },
         "varo-life-1925.png": {
           title: "Remedios y su abuela",
           year: "1925",
@@ -304,14 +324,14 @@ export const translations = {
           year: "1941",
           description: "",
         },
-        "varo-life-san-sebastian1.png": {
-          title: "Remedios y su familia en San Sebastián",
-          year: "fecha desconocida",
+        "varo-life-1941-toreador.png": {
+          title: "Remedios Varo en en costumbre de toreador",
+          year: "1941",
           description: "",
         },
-        "varo-life-san-sebastian2.png": {
-          title: "Remedios y su familia en San Sebastián",
-          year: "fecha desconocida",
+        "varo-life-1941-passport.png": {
+          title: "La tarjeta de identidad de inmigración de Remedios Varo",
+          year: "1941",
           description: "",
         },
       },
@@ -373,7 +393,7 @@ export const translations = {
         {
           title: "Encarcelada",
           description: "Duración y ubicación exacta desconocidas",
-          time: "1940",
+          time: "invierno de 1940",
           link: "",
           location: "Francia",
         },
