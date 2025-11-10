@@ -1,0 +1,133 @@
+---
+interface Props {
+  currentPage: number;
+  totalPages: number;
+  totalItems: number;
+  locale?: string;
+}
+
+const { currentPage, totalPages, totalItems, locale = 'es' } = Astro.props;
+
+const translations = {
+  es: {
+    previous: 'Anterior',
+    next: 'Siguiente',
+    page: 'Página',
+    of: 'de',
+    showing: 'Mostrando',
+    to: 'a',
+    items: 'obras'
+  },
+  en: {
+    previous: 'Previous',
+    next: 'Next',
+    page: 'Page',
+    of: 'of',
+    showing: 'Showing',
+    to: 'to',
+    items: 'artworks'
+  }
+};
+
+const t = translations[locale as keyof typeof translations] || translations.es;
+
+// Calculate page numbers to show
+const getPageNumbers = () => {
+  const pages: (number | string)[] = [];
+  const maxVisible = 7; // Show max 7 page buttons
+
+  if (totalPages <= maxVisible) {
+    // Show all pages
+    for (let i = 1; i <= totalPages; i++) {
+      pages.push(i);
+    }
+  } else {
+    // Show first, last, current and surrounding pages
+    if (currentPage <= 3) {
+      // Near start
+      for (let i = 1; i <= 5; i++) pages.push(i);
+      pages.push('...');
+      pages.push(totalPages);
+    } else if (currentPage >= totalPages - 2) {
+      // Near end
+      pages.push(1);
+      pages.push('...');
+      for (let i = totalPages - 4; i <= totalPages; i++) pages.push(i);
+    } else {
+      // Middle
+      pages.push(1);
+      pages.push('...');
+      for (let i = currentPage - 1; i <= currentPage + 1; i++) pages.push(i);
+      pages.push('...');
+      pages.push(totalPages);
+    }
+  }
+
+  return pages;
+};
+
+const pageNumbers = getPageNumbers();
+const itemsPerPage = 25;
+const startItem = (currentPage - 1) * itemsPerPage + 1;
+const endItem = Math.min(currentPage * itemsPerPage, totalItems);
+---
+
+<div class="artwork-pagination mt-12 mb-8">
+  <!-- Items count -->
+  <div class="text-sm text-center text-base-content/70 mb-4">
+    {t.showing} <span class="font-semibold">{startItem}</span> {t.to} <span class="font-semibold">{endItem}</span> {t.of} <span class="font-semibold">{totalItems}</span> {t.items}
+  </div>
+
+  <!-- Pagination controls -->
+  <div class="flex justify-center items-center gap-2 flex-wrap">
+    <!-- Previous button -->
+    <button
+      id="prev-page-btn"
+      class="btn btn-outline btn-sm"
+      disabled={currentPage === 1}
+      data-page={currentPage - 1}
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+      </svg>
+      {t.previous}
+    </button>
+
+    <!-- Page numbers -->
+    <div class="join">
+      {pageNumbers.map((page) => (
+        page === '...' ? (
+          <button class="join-item btn btn-sm btn-disabled">...</button>
+        ) : (
+          <button
+            class:list={[
+              "join-item btn btn-sm page-btn",
+              { "btn-active": page === currentPage }
+            ]}
+            data-page={page}
+          >
+            {page}
+          </button>
+        )
+      ))}
+    </div>
+
+    <!-- Next button -->
+    <button
+      id="next-page-btn"
+      class="btn btn-outline btn-sm"
+      disabled={currentPage === totalPages}
+      data-page={currentPage + 1}
+    >
+      {t.next}
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+      </svg>
+    </button>
+  </div>
+
+  <!-- Page indicator for mobile -->
+  <div class="text-center text-sm text-base-content/60 mt-3 lg:hidden">
+    {t.page} {currentPage} {t.of} {totalPages}
+  </div>
+</div>

@@ -1,0 +1,151 @@
+---
+interface Props {
+  locale?: string;
+}
+
+const { locale = 'es' } = Astro.props;
+
+const translations = {
+  es: {
+    close: 'Cerrar',
+    prev: 'Anterior',
+    next: 'Siguiente',
+    type: 'Tipo',
+    year: 'Año',
+    medium: 'Técnica',
+    collection: 'Colección',
+    tags: 'Etiquetas'
+  },
+  en: {
+    close: 'Close',
+    prev: 'Previous',
+    next: 'Next',
+    type: 'Type',
+    year: 'Year',
+    medium: 'Medium',
+    collection: 'Collection',
+    tags: 'Tags'
+  }
+};
+
+const t = translations[locale as keyof typeof translations] || translations.es;
+---
+
+<!-- Lightbox Modal -->
+<div id="artwork-lightbox" class="modal">
+  <div class="modal-box max-w-6xl w-full p-0 overflow-hidden">
+    <!-- Close button -->
+    <button
+      class="btn btn-sm btn-circle btn-ghost absolute right-4 top-4 z-50 bg-base-100/80 hover:bg-base-100"
+      id="close-lightbox"
+    >
+      ✕
+    </button>
+
+    <!-- Content -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-0">
+      <!-- Image Section -->
+      <div class="relative bg-base-300 flex items-center justify-center p-8" style="min-height: 500px;">
+        <img
+          id="lightbox-image"
+          src=""
+          alt=""
+          class="max-w-full max-h-[600px] object-contain"
+        />
+
+        <!-- Navigation arrows -->
+        <button
+          id="lightbox-prev"
+          class="btn btn-circle btn-ghost absolute left-2 top-1/2 -translate-y-1/2 bg-base-100/80 hover:bg-base-100"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+          </svg>
+        </button>
+        <button
+          id="lightbox-next"
+          class="btn btn-circle btn-ghost absolute right-2 top-1/2 -translate-y-1/2 bg-base-100/80 hover:bg-base-100"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Details Section -->
+      <div class="p-8 overflow-y-auto max-h-[600px]">
+        <h2 id="lightbox-title" class="text-3xl font-bold mb-4"></h2>
+
+        <div class="space-y-4">
+          <!-- Year -->
+          <div class="flex items-start gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+            <div>
+              <div class="text-sm font-semibold text-base-content/70">{t.year}</div>
+              <div id="lightbox-year" class="text-lg"></div>
+            </div>
+          </div>
+
+          <!-- Type -->
+          <div class="flex items-start gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+            </svg>
+            <div>
+              <div class="text-sm font-semibold text-base-content/70">{t.type}</div>
+              <div id="lightbox-type" class="text-lg capitalize"></div>
+            </div>
+          </div>
+
+          <!-- Medium -->
+          <div id="lightbox-medium-container" class="flex items-start gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+            </svg>
+            <div>
+              <div class="text-sm font-semibold text-base-content/70">{t.medium}</div>
+              <div id="lightbox-medium" class="text-lg"></div>
+            </div>
+          </div>
+
+          <!-- Collection -->
+          <div id="lightbox-collection-container" class="flex items-start gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+            </svg>
+            <div>
+              <div class="text-sm font-semibold text-base-content/70">{t.collection}</div>
+              <div id="lightbox-collection" class="text-lg"></div>
+            </div>
+          </div>
+
+          <!-- Description -->
+          <div id="lightbox-description-container" class="pt-4 border-t border-base-300">
+            <p id="lightbox-description" class="text-base-content/80 leading-relaxed"></p>
+          </div>
+
+          <!-- Tags -->
+          <div class="pt-4">
+            <div class="text-sm font-semibold text-base-content/70 mb-2">{t.tags}</div>
+            <div id="lightbox-tags" class="flex flex-wrap gap-2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal backdrop -->
+  <label class="modal-backdrop" for="artwork-lightbox" id="lightbox-backdrop">Close</label>
+</div>
+
+<style>
+  .modal {
+    @apply pointer-events-none opacity-0 transition-opacity duration-200;
+  }
+
+  .modal.modal-open {
+    @apply pointer-events-auto opacity-100;
+  }
+</style>

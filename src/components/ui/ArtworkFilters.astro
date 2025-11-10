@@ -1,0 +1,186 @@
+---
+import type { Artwork } from '@/data/artworks';
+import { getUniqueYears, getUniqueTypes, getUniqueTags } from '@/data/artworks';
+
+interface Props {
+  artworks: Artwork[];
+  locale?: string;
+}
+
+const { artworks, locale = 'es' } = Astro.props;
+
+const years = getUniqueYears(artworks);
+const types = getUniqueTypes(artworks);
+const tags = getUniqueTags(artworks);
+
+const minYear = Math.min(...years);
+const maxYear = Math.max(...years);
+
+const translations = {
+  es: {
+    search: 'Buscar obras...',
+    sortBy: 'Ordenar por',
+    yearAsc: 'Año (antiguo a reciente)',
+    yearDesc: 'Año (reciente a antiguo)',
+    titleAsc: 'Título (A-Z)',
+    titleDesc: 'Título (Z-A)',
+    filterByType: 'Filtrar por tipo',
+    filterByYear: 'Filtrar por año',
+    filterByTags: 'Filtrar por etiquetas',
+    allTypes: 'Todos los tipos',
+    allTags: 'Todas las etiquetas',
+    reset: 'Restablecer',
+    showing: 'Mostrando',
+    of: 'de',
+    works: 'obras'
+  },
+  en: {
+    search: 'Search artworks...',
+    sortBy: 'Sort by',
+    yearAsc: 'Year (old to recent)',
+    yearDesc: 'Year (recent to old)',
+    titleAsc: 'Title (A-Z)',
+    titleDesc: 'Title (Z-A)',
+    filterByType: 'Filter by type',
+    filterByYear: 'Filter by year',
+    filterByTags: 'Filter by tags',
+    allTypes: 'All types',
+    allTags: 'All tags',
+    reset: 'Reset',
+    showing: 'Showing',
+    of: 'of',
+    works: 'works'
+  }
+};
+
+const t = translations[locale as keyof typeof translations] || translations.es;
+---
+
+<div class="artwork-filters bg-base-200 p-6 rounded-lg mb-8">
+  <!-- Search and Sort Row -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+    <!-- Search -->
+    <div class="form-control">
+      <label class="label">
+        <span class="label-text font-semibold">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+          {t.search}
+        </span>
+      </label>
+      <input
+        type="text"
+        id="search-input"
+        placeholder={t.search}
+        class="input input-bordered w-full"
+      />
+    </div>
+
+    <!-- Sort -->
+    <div class="form-control">
+      <label class="label">
+        <span class="label-text font-semibold">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4h13M3 8h9m-9 4h6m4 0l4-4m0 0l4 4m-4-4v12" />
+          </svg>
+          {t.sortBy}
+        </span>
+      </label>
+      <select id="sort-select" class="select select-bordered w-full">
+        <option value="year-desc">{t.yearDesc}</option>
+        <option value="year-asc">{t.yearAsc}</option>
+        <option value="title-asc">{t.titleAsc}</option>
+        <option value="title-desc">{t.titleDesc}</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Filters Row -->
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+    <!-- Type Filter -->
+    <div class="form-control">
+      <label class="label">
+        <span class="label-text font-semibold">{t.filterByType}</span>
+      </label>
+      <div class="space-y-2 max-h-48 overflow-y-auto p-2 bg-base-100 rounded">
+        {types.map((type) => (
+          <label class="label cursor-pointer justify-start gap-2 py-1">
+            <input
+              type="checkbox"
+              class="checkbox checkbox-sm type-filter"
+              data-type={type}
+              checked
+            />
+            <span class="label-text capitalize">{type}</span>
+          </label>
+        ))}
+      </div>
+    </div>
+
+    <!-- Year Range Filter -->
+    <div class="form-control">
+      <label class="label">
+        <span class="label-text font-semibold">{t.filterByYear}</span>
+      </label>
+      <div class="space-y-3 p-2 bg-base-100 rounded">
+        <div class="flex gap-2 items-center">
+          <input
+            type="number"
+            id="year-min"
+            placeholder="Min"
+            min={minYear}
+            max={maxYear}
+            value={minYear}
+            class="input input-bordered input-sm w-full"
+          />
+          <span>-</span>
+          <input
+            type="number"
+            id="year-max"
+            placeholder="Max"
+            min={minYear}
+            max={maxYear}
+            value={maxYear}
+            class="input input-bordered input-sm w-full"
+          />
+        </div>
+        <div class="text-xs text-base-content/60 text-center">
+          {minYear} - {maxYear}
+        </div>
+      </div>
+    </div>
+
+    <!-- Tags Filter -->
+    <div class="form-control">
+      <label class="label">
+        <span class="label-text font-semibold">{t.filterByTags}</span>
+      </label>
+      <div class="space-y-2 max-h-48 overflow-y-auto p-2 bg-base-100 rounded">
+        {tags.map((tag) => (
+          <label class="label cursor-pointer justify-start gap-2 py-1">
+            <input
+              type="checkbox"
+              class="checkbox checkbox-sm tag-filter"
+              data-tag={tag}
+            />
+            <span class="label-text capitalize">{tag.replace(/-/g, ' ')}</span>
+          </label>
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <!-- Action Buttons -->
+  <div class="flex justify-between items-center mt-6 pt-4 border-t border-base-300">
+    <div id="results-count" class="text-sm text-base-content/70">
+      {t.showing} <span class="font-bold" id="showing-count">{artworks.length}</span> {t.of} <span class="font-bold">{artworks.length}</span> {t.works}
+    </div>
+    <button id="reset-all-filters" class="btn btn-outline btn-sm">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+      </svg>
+      {t.reset}
+    </button>
+  </div>
+</div>

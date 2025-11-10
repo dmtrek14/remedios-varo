@@ -1,0 +1,55 @@
+---
+import ArtworkCard from './ArtworkCard.astro';
+import type { Artwork } from '@/data/artworks';
+
+interface Props {
+  artworks: Artwork[];
+  locale?: string;
+}
+
+const { artworks, locale = 'es' } = Astro.props;
+---
+
+<div class="artwork-grid">
+  {artworks.length > 0 ? (
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      {artworks.map((artwork) => (
+        <ArtworkCard artwork={artwork} locale={locale} />
+      ))}
+    </div>
+  ) : (
+    <div class="text-center py-12">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-16 w-16 mx-auto text-base-content/30 mb-4"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+        />
+      </svg>
+      <p class="text-lg text-base-content/70">
+        {locale === 'es'
+          ? 'No se encontraron obras con estos filtros'
+          : 'No artworks found with these filters'}
+      </p>
+      <button
+        id="reset-filters-btn"
+        class="btn btn-outline btn-sm mt-4"
+      >
+        {locale === 'es' ? 'Restablecer filtros' : 'Reset filters'}
+      </button>
+    </div>
+  )}
+</div>
+
+<style>
+  .artwork-grid {
+    min-height: 400px;
+  }
+</style>
