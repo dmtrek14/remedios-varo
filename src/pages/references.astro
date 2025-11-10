@@ -1,14 +1,58 @@
 ---
 import Layout from '@/layouts/Layout.astro'
+import { YouTube } from 'astro-embed'
+import { translations } from '@/i18n/translations'
+
+const t = translations.es.references
 ---
 
 <Layout>
     <section class='mb-12'>
-		<h1 class='text-2xl font-bold mb-6 border-b pb-2'>
+		<h2 class='text-2xl font-bold mb-6 border-b pb-2'>
 		Referencias y más información
-		</h1>
-		<p class='text-lg'>
-		Esta es una página de referencias y más información
-		</p>
+		</h2>
+
+		<!-- Bibliography Section -->
+		<div class='mb-12'>
+			<h2 class='text-xl font-semibold mb-4'>{t.bibliographyTitle}</h2>
+			{t.bibliography.length > 0 ? (
+				<ul class='space-y-3'>
+					{t.bibliography.map((entry: any) => (
+						<li class='text-sm'>
+							{entry.authors && <span class='font-medium'>{entry.authors}. </span>}
+							{entry.year && <span>({entry.year}). </span>}
+							{entry.title && <span class='italic'>{entry.title}. </span>}
+							{entry.publisher && <span>{entry.publisher}. </span>}
+							{entry.pages && <span>{entry.pages}. </span>}
+							{entry.url && (
+								<a href={entry.url} target='_blank' rel='noopener noreferrer' class='text-blue-600 hover:underline'>
+									[Link]
+								</a>
+							)}
+						</li>
+					))}
+				</ul>
+			) : (
+				<p class='text-gray-600 italic'>Añade entradas de bibliografía en src/i18n/translations.ts</p>
+			)}
+		</div>
+
+		<!-- Videos Section -->
+		<div class='mb-12'>
+			<h2 class='text-xl font-semibold mb-4'>{t.videosTitle}</h2>
+			{t.videos.length > 0 ? (
+				<div class='space-y-6'>
+					{t.videos.map((video: any) => (
+						<div class='border rounded-lg p-4'>
+							{video.title && <h3 class='font-medium mb-2'>{video.title}</h3>}
+							{video.description && <p class='text-sm text-gray-600 mb-3'>{video.description}</p>}
+							{video.id && <YouTube id={video.id} />}
+						</div>
+					))}
+				</div>
+			) : (
+				<p class='text-gray-600 italic'>Añade videos en src/i18n/translations.ts (usa el ID de YouTube, ej: "dQw4w9WgXcQ")</p>
+			)}
+		</div>
 	</section>
 </Layout>

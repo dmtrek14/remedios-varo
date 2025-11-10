@@ -20,6 +20,59 @@ export const translations = {
     cv: {
       lifeEventsTitle: "Life Events",
       photoGallery: "Photo Gallery",
+      lifePhotos: {
+        "varo-life-1912.png": {
+          title: "Remedios as a child with her father and older brother",
+          year: "1912",
+          description: "",
+        },
+        "varo-life-1916.png": {
+          title: "Remedios with her family",
+          year: "1916",
+          description: "",
+        },
+        "varo-life-1925.png": {
+          title: "Remedios and her grandmother",
+          year: "1925",
+          description: "",
+        },
+        "varo-life-1927.png": {
+          title:
+            "Remedios as a student at Real Academia de Bellas Artes de San Fernando",
+          year: "1927",
+          description: "",
+        },
+        "varo-life-1930.png": {
+          title: "Gerardo Lizárraga and Remedios Varo with friends",
+          year: "1930",
+          description: "",
+        },
+        "varo-life-1931.png": {
+          title: "Unidentified man, Remedios Varo, and Esteban Francés",
+          year: "1931",
+          description: "",
+        },
+        "varo-life-1932.png": {
+          title: "Remedios Varo circa 1932",
+          year: "1932",
+          description: "",
+        },
+        "varo-life-1941.png": {
+          title: "Remedios Varo and Benjamin Péret in Marseilles",
+          year: "1941",
+          description: "",
+        },
+        "varo-life-san-sebastian1.png": {
+          title: "Remedios and her family in San Sebastián",
+          year: "date unknown",
+          description: "",
+        },
+        "varo-life-san-sebastian2.png": {
+          title: "Remedios and her family in San Sebastián",
+          year: "date unknown",
+          description: "",
+        },
+      },
       experiences: [],
       education: [],
       skills: [],
@@ -67,6 +120,13 @@ export const translations = {
           time: "1937",
           link: "",
           location: "Paris, France",
+        },
+        {
+          title: "Benjamin Péret arrested for political activism",
+          description: "",
+          time: "May 1940",
+          link: "",
+          location: "France",
         },
         {
           title: "Imprisoned",
@@ -121,6 +181,37 @@ export const translations = {
         },
       ],
     },
+    references: {
+      bibliographyTitle: "Bibliography",
+      videosTitle: "Videos and Multimedia",
+      bibliography: [
+        // Add your bibliography entries here
+        // Example:
+        // {
+        //   authors: "Last Name, First Name",
+        //   year: "2020",
+        //   title: "Book or Article Title",
+        //   publisher: "Publisher Name",
+        //   pages: "pp. 1-10",
+        //   url: "https://example.com"
+        // }
+      ],
+      videos: [
+        // Add your YouTube videos here - use the video ID from the URL
+        // Get the ID from: https://www.youtube.com/watch?v=VIDEO_ID
+        // Example:
+        // {
+        //   title: "Video Title",
+        //   id: "dQw4w9WgXcQ",
+        //   description: "Video description"
+        // }
+        {
+          title: "Remedios Varo: Science Fictions",
+          id: "coKWZWko7ZM",
+          description: "",
+        },
+      ],
+    },
   },
   es: {
     nav: {
@@ -143,6 +234,59 @@ export const translations = {
     cv: {
       lifeEventsTitle: "Eventos de Vida",
       photoGallery: "Galería de Fotos",
+      lifePhotos: {
+        "varo-life-1912.png": {
+          title: "Remedios de niña con su padre y hermano mayor",
+          year: "1912",
+          description: "",
+        },
+        "varo-life-1916.png": {
+          title: "Remedios con su familia",
+          year: "1916",
+          description: "",
+        },
+        "varo-life-1925.png": {
+          title: "Remedios y su abuela",
+          year: "1925",
+          description: "",
+        },
+        "varo-life-1927.png": {
+          title:
+            "Remedios como estudiante en la Real Academia de Bellas Artes de San Fernando",
+          year: "1927",
+          description: "",
+        },
+        "varo-life-1930.png": {
+          title: "Gerardo Lizárraga y Remedios Varo con amigos",
+          year: "1930",
+          description: "",
+        },
+        "varo-life-1931.png": {
+          title: "Hombre desconocido, Remedios Varo y Esteban Francés",
+          year: "1931",
+          description: "",
+        },
+        "varo-life-1932.png": {
+          title: "Remedios Varo circa 1932",
+          year: "1932",
+          description: "",
+        },
+        "varo-life-1941.png": {
+          title: "Remodios Varo y Benjamin Péret en Marseilles",
+          year: "1941",
+          description: "",
+        },
+        "varo-life-san-sebastian1.png": {
+          title: "Remedios y su familia en San Sebastián",
+          year: "fecha desconocida",
+          description: "",
+        },
+        "varo-life-san-sebastian2.png": {
+          title: "Remedios y su familia en San Sebastián",
+          year: "fecha desconocida",
+          description: "",
+        },
+      },
       experiences: [],
       education: [],
       skills: [],
@@ -190,6 +334,13 @@ export const translations = {
           time: "1937",
           link: "",
           location: "París, Francia",
+        },
+        {
+          title: "Benjamin Péret arrestado por activismo político",
+          description: "",
+          time: "mayo de 1940",
+          link: "",
+          location: "France",
         },
         {
           title: "Encarcelada",
@@ -241,6 +392,37 @@ export const translations = {
           time: "8 de octubre de 1963",
           link: "",
           location: "Ciudad de México, México",
+        },
+      ],
+    },
+    references: {
+      bibliographyTitle: "Bibliografía",
+      videosTitle: "Videos y Multimedia",
+      bibliography: [
+        // Añade tus entradas de bibliografía aquí
+        // Ejemplo:
+        // {
+        //   authors: "Apellido, Nombre",
+        //   year: "2020",
+        //   title: "Título del Libro o Artículo",
+        //   publisher: "Nombre de la Editorial",
+        //   pages: "pp. 1-10",
+        //   url: "https://ejemplo.com"
+        // }
+      ],
+      videos: [
+        // Añade tus videos de YouTube aquí - usa el ID del video de la URL
+        // Obtén el ID de: https://www.youtube.com/watch?v=VIDEO_ID
+        // Ejemplo:
+        // {
+        //   title: "Título del Video",
+        //   id: "dQw4w9WgXcQ",
+        //   description: "Descripción del video"
+        // }
+        {
+          title: "Remedios Varo: Ficciones de la ciencia",
+          id: "coKWZWko7ZM",
+          description: "",
         },
       ],
     },

@@ -1,7 +1,7 @@
 ---
 import Layout from '@/layouts/Layout.astro'
 import LifeEventsTimeline from '@/components/ui/LifeEventsTimeline.astro'
-import Carousel from '@/components/ui/Carousel.astro'
+import Carousel, { type CarouselImage } from '@/components/ui/Carousel.astro'
 import type { LifeEvent } from '../types/cv'
 import { getCvTranslations, useTranslations, type Locale } from '@/i18n/translations'
 
@@ -11,7 +11,26 @@ const cvData = getCvTranslations(currentLocale)
 
 // Dynamically import all images from the life folder
 const lifeImagesGlob = import.meta.glob('../assets/life/*.{png,jpg,jpeg,webp,gif}', { eager: true })
-const images = Object.values(lifeImagesGlob).map((mod: any) => mod.default)
+
+// Merge images with their captions from translations
+// Sort by filename to ensure consistent ordering
+const carouselImages: CarouselImage[] = Object.entries(lifeImagesGlob)
+  .sort(([pathA], [pathB]) => {
+    const filenameA = pathA.split('/').pop() || ''
+    const filenameB = pathB.split('/').pop() || ''
+    return filenameA.localeCompare(filenameB)
+  })
+  .map(([path, mod]: [string, any]) => {
+    const filename = path.split('/').pop() || ''
+    const caption = cvData.lifePhotos[filename as keyof typeof cvData.lifePhotos]
+
+    return {
+      image: mod.default,
+      title: caption?.title || '',
+      year: caption?.year || '',
+      description: caption?.description || '',
+    }
+  })
 
 let orderedLifeEvents: LifeEvent[] = []
 
@@ -51,12 +70,12 @@ if (cvData.lifeEvents.length > 0) {
 	}
 
 	{
-		images.length > 0 && (
+		carouselImages.length > 0 && (
 			<section class='mb-12'>
 				<h2 class='text-2xl font-bold mb-6 border-b pb-2'>
 				{t('cv.photoGallery')}
 				</h2>
-				<Carousel images={images} height="600px" alt="Remedios Varo life photos" />
+				<Carousel images={carouselImages} height="600px" alt="Remedios Varo life photos" />
 			</section>
 		)
 	}
