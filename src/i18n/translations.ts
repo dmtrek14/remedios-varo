@@ -185,6 +185,14 @@ export const translations = {
           location: "Mexico City, Mexico",
         },
         {
+          title: "Worked for Casa Bayer",
+          description:
+            "Illustrated literature for the pharmaceutical company, including ads for drugs and calendars",
+          time: "1942-49",
+          link: "",
+          location: "Mexico City, Mexico",
+        },
+        {
           title: "Illustrator for scientific expedition in Venezuela",
           description:
             "Her brother was chief of epidemiology for the ministry of public health and arranged a job for her in the malaria control division",
@@ -202,8 +210,31 @@ export const translations = {
         },
         {
           title: "First Mexican exhibition (group show)",
-          description: "",
+          description: "Galería Diana",
           time: "1955",
+          link: "",
+          location: "Mexico City, Mexico",
+        },
+        {
+          title: "First solo exhibition",
+          description: "",
+          time: "1956",
+          link: "",
+          location: "Mexico City, Mexico",
+        },
+        {
+          title:
+            "Accepted commission to paint a mural for the new Cancer Pavilion for the Medical Center",
+          description:
+            "However, she was afraid of disease and eventually backed out of the commission",
+          time: "1959",
+          link: "",
+          location: "Mexico City, Mexico",
+        },
+        {
+          title: "Second solo exhibition",
+          description: "",
+          time: "1962",
           link: "",
           location: "Mexico City, Mexico",
         },
@@ -492,6 +523,14 @@ export const translations = {
           location: "Mexico City, Mexico",
         },
         {
+          title: "Trabajó para Casa Bayer",
+          description:
+            "Ilustró literatura para la empresa farmacéutica, incluyendo anuncios para drogas y calendarios",
+          time: "1942-49",
+          link: "",
+          location: "Mexico City, Mexico",
+        },
+        {
           title: "Ilustradora para expedición científica en Venezuela",
           description:
             "Su hermano era jefe de epidemiología del ministerio de salud pública y le consiguió un trabajo en la división de control de la malaria",
@@ -500,17 +539,40 @@ export const translations = {
           location: "Venezuela",
         },
         {
-          title: "Se casa con Walter Gruen",
+          title: "Se casó Walter Gruen",
           description:
-            "También abandonó oficialmente su trabajo comercial para concentrarse en su arte",
+            "También oficialmente dejó de trabajar comercial para concentrarse en su arte",
           time: "1952",
           link: "",
           location: "Ciudad de México, México",
         },
         {
-          title: "Primera exposición mexicana (exposición colectiva)",
-          description: "",
+          title: "Primer exhibición mexicano (exhibición colectiva)",
+          description: "Galería Diana",
           time: "1955",
+          link: "",
+          location: "Ciudad de México, México",
+        },
+        {
+          title: "Primer exhibición solo",
+          description: "",
+          time: "1956",
+          link: "",
+          location: "Ciudad de México, México",
+        },
+        {
+          title:
+            "Aceptó una comisión para pintar un mural para el nuevo pabellón de cáncer del Hospital Médico",
+          description:
+            "Aunque temía la enfermedad, y finalmente se retiró de la comisión",
+          time: "1959",
+          link: "",
+          location: "Ciudad de México, México",
+        },
+        {
+          title: "Segundo exhibición solo",
+          description: "",
+          time: "1962",
           link: "",
           location: "Ciudad de México, México",
         },
