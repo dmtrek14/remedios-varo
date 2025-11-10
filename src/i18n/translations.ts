@@ -82,6 +82,23 @@ export const translations = {
           year: "1941",
           description: "",
         },
+        "varo-life-1940s.png": {
+          title: "Remedios Varo and a cat in Mexico",
+          year: "1940s",
+          description: "",
+        },
+        "varo-life-1942-1943.png": {
+          title:
+            "Remedios Varo, Gerardo Lizárraga, and Esteban Francés working for the British antifascist propaganda office",
+          year: "1942-43",
+          description: "",
+        },
+        "varo-life-1946.png": {
+          title:
+            "Remedios Varo and friends at the wedding of Leonora Carrington",
+          year: "1946",
+          description: "",
+        },
       },
       experiences: [],
       education: [],
@@ -139,13 +156,6 @@ export const translations = {
           location: "France",
         },
         {
-          title: "Imprisoned",
-          description: "Length and exact location unknown",
-          time: "Winter 1940",
-          link: "",
-          location: "France",
-        },
-        {
           title: "Fled to the south of France",
           description: "Due to Nazi invasion of Paris",
           time: "June, 1940",
@@ -153,9 +163,24 @@ export const translations = {
           location: "France",
         },
         {
+          title: "Imprisoned",
+          description: "Length and exact location unknown",
+          time: "Winter 1940",
+          link: "",
+          location: "France",
+        },
+        {
           title: "Fled to Mexico",
           description: "",
           time: "1941",
+          link: "",
+          location: "Mexico City, Mexico",
+        },
+        {
+          title: "Worked for the British antifascist propaganda office",
+          description:
+            "Made dioramas and small stage sets to illustrate Allied victories",
+          time: "1942-43",
           link: "",
           location: "Mexico City, Mexico",
         },
@@ -188,6 +213,36 @@ export const translations = {
           time: "October 8, 1963",
           link: "",
           location: "Mexico City, Mexico",
+        },
+      ],
+    },
+    facts: {
+      pageTitle: "Interesting Facts",
+      items: [
+        {
+          title: "Cat and Bird Lover",
+          description:
+            "Remedios loved birds and cats. In Mexico, she fed stray cats and neighborhood birds. She featured both cats and birds in her surrealist paintings, treating them as mystical companions in her artistic world.",
+        },
+        {
+          title: "Scientific Background",
+          description:
+            "Her father was a hydraulic engineer who encouraged her artistic talents from a young age. This technical background influenced the precise, mechanical elements often seen in her work.",
+        },
+        {
+          title: "Alchemy and Mysticism",
+          description:
+            "She was deeply interested in alchemy, tarot, dream analysis, and Eastern philosophy, which became central themes in her paintings.",
+        },
+        {
+          title: "Commercial Work",
+          description:
+            "She worked as a commercial illustrator for Bayer pharmaceutical company, creating advertisements for pharmaceuticals.",
+        },
+        {
+          title: "Self-Taught Techniques",
+          description:
+            "She developed unique painting techniques, including creating her own recipes for materials and grounds, approaching painting with an almost alchemical methodology.",
         },
       ],
     },
@@ -334,6 +389,22 @@ export const translations = {
           year: "1941",
           description: "",
         },
+        "varo-life-1940s.png": {
+          title: "Remedios Varo y un gato en Mexico",
+          year: "1940s",
+          description: "",
+        },
+        "varo-life-1942-1943.png": {
+          title:
+            "Remedios Varo, Gerardo Lizárraga, y Esteban Francés trabajando para la oficina de propaganda antifascista británica",
+          year: "1942-43",
+          description: "",
+        },
+        "varo-life-1946.png": {
+          title: "Remedios Varo y amigos a la boda de Leonora Carrington",
+          year: "1946",
+          description: "",
+        },
       },
       experiences: [],
       education: [],
@@ -391,13 +462,6 @@ export const translations = {
           location: "France",
         },
         {
-          title: "Encarcelada",
-          description: "Duración y ubicación exacta desconocidas",
-          time: "invierno de 1940",
-          link: "",
-          location: "Francia",
-        },
-        {
           title: "Huyó al sur de Francia",
           description: "Debido a la invasión nazi de París",
           time: "Junio de 1940",
@@ -405,11 +469,27 @@ export const translations = {
           location: "Francia",
         },
         {
+          title: "Encarcelada",
+          description: "Duración y ubicación exacta desconocidas",
+          time: "invierno de 1940",
+          link: "",
+          location: "Francia",
+        },
+
+        {
           title: "Huyó a México",
           description: "",
           time: "1941",
           link: "",
           location: "Ciudad de México, México",
+        },
+        {
+          title: "Trabajó para la oficina de propaganda antifascista británica",
+          description:
+            "Crearon dioramas y pequeños conjuntos de escenas para ilustrar victorias aliadas",
+          time: "1942-43",
+          link: "",
+          location: "Mexico City, Mexico",
         },
         {
           title: "Ilustradora para expedición científica en Venezuela",
@@ -440,6 +520,36 @@ export const translations = {
           time: "8 de octubre de 1963",
           link: "",
           location: "Ciudad de México, México",
+        },
+      ],
+    },
+    facts: {
+      pageTitle: "Realidades Interesantes",
+      items: [
+        {
+          title: "Amante de los Gatos",
+          description:
+            "Remedios era una devota amante de los gatos y a menudo presentaba a sus queridos gatos en sus pinturas surrealistas, tratándolos como compañeros místicos en su mundo artístico.",
+        },
+        {
+          title: "Formación Científica",
+          description:
+            "Su padre era ingeniero hidráulico que fomentó sus talentos artísticos desde una edad temprana. Esta formación técnica influyó en los elementos precisos y mecánicos que a menudo se ven en su obra.",
+        },
+        {
+          title: "Alquimia y Misticismo",
+          description:
+            "Estaba profundamente interesada en la alquimia, el tarot, el análisis de los sueños y la filosofía oriental, que se convirtieron en temas centrales en sus pinturas.",
+        },
+        {
+          title: "Trabajo Comercial",
+          description:
+            "Antes de dedicarse completamente al arte, trabajó como ilustradora comercial para la empresa farmacéutica Bayer, creando anuncios de insecticidas.",
+        },
+        {
+          title: "Técnicas Autodidactas",
+          description:
+            "Desarrolló técnicas de pintura únicas, incluida la creación de sus propias recetas para materiales y fondos, abordando la pintura con una metodología casi alquímica.",
         },
       ],
     },
