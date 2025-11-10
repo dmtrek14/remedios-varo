@@ -59,6 +59,13 @@ export const lifeEvents = [
     location: "San Sebastián, Spain",
   },
   {
+    title: "Moved to Paris",
+    description: "Because of increasing violence in Madrid",
+    time: "1931-32",
+    link: "",
+    location: "Paris, France",
+  },
+  {
     title: "Moved to Barcelona",
     description: "",
     time: "1932",
@@ -66,8 +73,8 @@ export const lifeEvents = [
     location: "Barcelona, Spain",
   },
   {
-    title: "Fled to France",
-    description: "Due to Spanish Civil War",
+    title: "Moved to France",
+    description: "Went with lover Benjamin Peret, leaving her husband in Spain",
     time: "1937",
     link: "",
     location: "Paris, France",

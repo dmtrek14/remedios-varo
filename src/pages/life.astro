@@ -1,15 +1,19 @@
 ---
 import Layout from '@/layouts/Layout.astro'
-import { lifeEvents } from '../data/cv'
-// import CvTimeline from '@/components/ui/CvTimeline.astro'
 import LifeEventsTimeline from '@/components/ui/LifeEventsTimeline.astro'
-
+import Carousel from '@/components/ui/Carousel.astro'
 import type { LifeEvent } from '../types/cv'
-import List from '@/components/ui/List.astro'
+import { getCvTranslations, useTranslations, type Locale } from '@/i18n/translations'
 
+const currentLocale = (Astro.currentLocale || 'es') as Locale
+const t = useTranslations(currentLocale)
+const cvData = getCvTranslations(currentLocale)
+
+// Dynamically import all images from the life folder
+const lifeImagesGlob = import.meta.glob('../assets/life/*.{png,jpg,jpeg,webp,gif}', { eager: true })
+const images = Object.values(lifeImagesGlob).map((mod: any) => mod.default)
 
 let orderedLifeEvents: LifeEvent[] = []
-
 
 const orderElement = <T extends { time: string }>(a: T, b: T) => {
   const presentValues = ['present', 'now', 'current', 'today']
@@ -26,8 +30,8 @@ const orderElement = <T extends { time: string }>(a: T, b: T) => {
 		return dateB.getTime() - dateA.getTime()
 }
 
-if (lifeEvents.length > 0) {
-	orderedLifeEvents = lifeEvents.sort((a, b) => {
+if (cvData.lifeEvents.length > 0) {
+	orderedLifeEvents = cvData.lifeEvents.sort((a, b) => {
 		return orderElement(a, b)
 	})
 }
@@ -38,10 +42,21 @@ if (lifeEvents.length > 0) {
 	{
 		orderedLifeEvents.length > 0 && (
 			<section class='mb-12'>
-				<h1 class='text-2xl font-bold mb-6 border-b pb-2'>
-				Eventos de Vida
-				</h1>
+				<h2 class='text-2xl font-bold mb-6 border-b pb-2'>
+				{t('cv.lifeEventsTitle')}
+				</h2>
 				<LifeEventsTimeline elements={orderedLifeEvents} colored={true} />
+			</section>
+		)
+	}
+
+	{
+		images.length > 0 && (
+			<section class='mb-12'>
+				<h2 class='text-2xl font-bold mb-6 border-b pb-2'>
+				{t('cv.photoGallery')}
+				</h2>
+				<Carousel images={images} height="600px" alt="Remedios Varo life photos" />
 			</section>
 		)
 	}

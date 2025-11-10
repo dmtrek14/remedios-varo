@@ -2,16 +2,16 @@
 import Layout from '../../layouts/Layout.astro'
 
 import { profile } from '@/settings'
-import { publications } from '@/data/cv'
 import ProfilePictures from '@/assets/profile_pictures.jpg'
 import Hero from '@/components/ui/Hero.astro'
 import Grid from '@/components/ui/Grid.astro'
 import ArticleList from '@/components/ui/ArticleList.astro'
-import { useTranslations, type Locale } from '@/i18n/translations'
+import { useTranslations, getCvTranslations, type Locale } from '@/i18n/translations'
 
 const { fullName, research_areas } = profile
 const currentLocale = (Astro.currentLocale || 'es') as Locale
 const t = useTranslations(currentLocale)
+const cvData = getCvTranslations(currentLocale)
 ---
 
 <Layout>
@@ -29,6 +29,6 @@ const t = useTranslations(currentLocale)
 
 	<!-- Recent Publications -->
 	<section class='py-12 border-t'>
-		<ArticleList listTitle={t('home.recentPublications')} listItems={publications} />
+		<ArticleList listTitle={t('home.recentPublications')} listItems={cvData.publications} />
 	</section>
 </Layout>
