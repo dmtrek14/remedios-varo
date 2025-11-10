@@ -195,6 +195,14 @@ export const translations = {
         //   pages: "pp. 1-10",
         //   url: "https://example.com"
         // }
+        {
+          authors: "Janet A. Kaplan",
+          year: "1988",
+          title: "Unexpected Journeys: The Art and Life of Remedios Varo",
+          publisher: "Abbeville Press",
+          pages: "",
+          url: "https://archive.org/embed/unexpectedjourne0000kapl",
+        },
       ],
       videos: [
         // Add your YouTube videos here - use the video ID from the URL
@@ -208,6 +216,26 @@ export const translations = {
         {
           title: "Remedios Varo: Science Fictions",
           id: "coKWZWko7ZM",
+          description: "",
+        },
+        {
+          title: "Conversation: Remedios Varo - A Taxonomy of Techniques",
+          id: "Zs1NJUj1G_A",
+          description: "",
+        },
+        {
+          title: "Remedios Varo - Encuentros",
+          id: "d41nuqJuqvs",
+          description: "",
+        },
+        {
+          title: "A Curatorial Conversation on the Drawings of Remedios Varo",
+          id: "Jx8guLW8NbQ",
+          description: "",
+        },
+        {
+          title: "Remedios Varo y la alquimia de los fantástico",
+          id: "GF0tBDkRSBo",
           description: "",
         },
       ],
@@ -409,6 +437,14 @@ export const translations = {
         //   pages: "pp. 1-10",
         //   url: "https://ejemplo.com"
         // }
+        {
+          authors: "Janet A. Kaplan",
+          year: "1988",
+          title: "Unexpected Journeys: The Art and Life of Remedios Varo",
+          publisher: "Abbeville Press",
+          pages: "",
+          url: "https://archive.org/embed/unexpectedjourne0000kapl",
+        },
       ],
       videos: [
         // Añade tus videos de YouTube aquí - usa el ID del video de la URL
@@ -422,6 +458,26 @@ export const translations = {
         {
           title: "Remedios Varo: Ficciones de la ciencia",
           id: "coKWZWko7ZM",
+          description: "",
+        },
+        {
+          title: "Conversation: Remedios Varo - A Taxonomy of Techniques",
+          id: "Zs1NJUj1G_A",
+          description: "",
+        },
+        {
+          title: "Remedios Varo - Encuentros",
+          id: "d41nuqJuqvs",
+          description: "",
+        },
+        {
+          title: "A Curatorial Conversation on the Drawings of Remedios Varo",
+          id: "Jx8guLW8NbQ",
+          description: "",
+        },
+        {
+          title: "Remedios Varo y la alquimia de los fantástico",
+          id: "GF0tBDkRSBo",
           description: "",
         },
       ],
