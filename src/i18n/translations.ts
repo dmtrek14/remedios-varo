@@ -217,7 +217,7 @@ export const translations = {
         },
         {
           title: "First solo exhibition",
-          description: "",
+          description: "Galería Diana",
           time: "1956",
           link: "",
           location: "Mexico City, Mexico",
@@ -233,7 +233,7 @@ export const translations = {
         },
         {
           title: "Second solo exhibition",
-          description: "",
+          description: "Galería Juan Martín",
           time: "1962",
           link: "",
           location: "Mexico City, Mexico",
@@ -280,7 +280,7 @@ export const translations = {
         {
           title: "She loved to sew and was a skilled costume designer",
           description:
-            "She and Carrington worked on costumes for a production of Jean Girauodoux's Madwoman of Chaillot. They also made hats and headdresses for a production of Pedro Calderon de la Barca's Gran Teatro del Mundo. She worked for Marc Chagall on costume designs for Léonid Massine's balley Aleko which premiered in Mexico City in September 1942 (Kaplan, 98). Because of her interest in costuming, \"her sewing machine was accorded a position of honor at the 1983 retrospective of her work in Mexico City.\" (Kaplan, 101)",
+            "She and Carrington worked on costumes for a production of Jean Girauodoux's Madwoman of Chaillot. They also made hats and headdresses for a production of Pedro Calderon de la Barca's Gran Teatro del Mundo. She worked for Marc Chagall on costume designs for Léonid Massine's ballet Aleko which premiered in Mexico City in September 1942 (Kaplan, 98). Because of her interest in costuming, \"her sewing machine was accorded a position of honor at the 1983 retrospective of her work in Mexico City.\" (Kaplan, 101)",
         },
         {
           title: "Frida Kahlo was probably not a fan",
@@ -324,6 +324,11 @@ export const translations = {
         {
           title: "Remedios Varo: Science Fictions",
           id: "coKWZWko7ZM",
+          description: "",
+        },
+        {
+          title: "Remedios Varo: Science Fictions",
+          id: "SZx9aswvpPk",
           description: "",
         },
         {
@@ -583,7 +588,7 @@ export const translations = {
         },
         {
           title: "Segundo exhibición solo",
-          description: "",
+          description: "Galería Juan Martín",
           time: "1962",
           link: "",
           location: "Ciudad de México, México",
@@ -615,7 +620,7 @@ export const translations = {
           title:
             "Estuvo a punto de caer víctime de un asesino cuando trataba de obtener pasaje a México (circa 1941)",
           description:
-            "Varo y Benjamin Péret escaparon un asesino en serie cuando trataban salier de Francia. ",
+            'Varo y Benjamin Péret escaparon un asesino en serie cuando trataban salir de Francia. "Un cuento que Varo y Péret organizaron su viaje en un barco pesquero entregando dinero a un traficante del mercado negro a través de un intermediario, un joven de dudosa reputación que se les acercó mientras paseaban por los muelles. Aunque los dejó abandonados, huyendo con su preciado dinero, el ladrón pudo haberles salvado la vida. Pues, como pronto informarían los periódicos, el traficante del mercado negro al que se le iba a entregar el dinero resultó ser un asesino psicópata que había asesinado a los refugiados anteriores a los que había ofrecido ayuda, una acusación confirmada por el mudo testimonio de los doce cuerpos encontrados enterrados en su patio trasero." (Kaplan, 82)',
         },
         {
           title: "Prepetró un pequeño fraude para sobrevivir en París",
@@ -628,9 +633,9 @@ export const translations = {
             "Varo le gustaba escribir cartas a extraños y darles desafíos o otras sugerincias para una aventura. Varo y Carrington tambien les gustaban crear recetas que prometían resultados mágicos como ahuyentar los sueños malos o como soñar de ser el rey de Inglaterra.",
         },
         {
-          title:
-            "Ella le gustaba coser y era una buena diseñadora de costumbres",
-          description: "",
+          title: "Ella le gustaba coser y era una buena diseñadora de trajes",
+          description:
+            'Varo y Carrington trabajaron en trajes para un espectáculo de Madwoman of Chaillot de Jean Giraudoux. También crearon sombreros y tocados para un espectáculo de El Gran Teatro del Mundo de Pedro Calderon de la Barca. Varo trabajó en diseños de trajes para Marc Chagall para Aleko, un ballet de Léonid Massine, que premió en septiembre de 1942 (Kaplan, 98). Debido a su interés en diseño de vestuario, "su máquina de coser fue designada un sitio de honor en el exhibición retrospectivo de su obra en Ciudad de México en 1983. "(Kaplan, 98).',
         },
         {
           title: "Frida Kahlo probablemente no era una aficionada",
@@ -674,6 +679,11 @@ export const translations = {
         {
           title: "Remedios Varo: Ficciones de la ciencia",
           id: "coKWZWko7ZM",
+          description: "",
+        },
+        {
+          title: "Remedios Varo: Ficciones de la ciencia",
+          id: "SZx9aswvpPk",
           description: "",
         },
         {
