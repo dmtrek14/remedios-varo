@@ -2,6 +2,7 @@
 import { defineConfig } from "astro/config";
 
 import react from "@astrojs/react";
+import solidJs from "@astrojs/solid-js";
 import tailwind from "@astrojs/tailwind";
 
 import { template } from "./src/settings";
@@ -12,7 +13,7 @@ import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [react(), tailwind(), sitemap(), icon()],
+  integrations: [react(), solidJs(), tailwind(), sitemap(), icon()],
   site: template.website_url,
   base: template.base,
   i18n: {

@@ -3,7 +3,14 @@ export interface Artwork {
   title: string;
   titleEs?: string; // Spanish title if different
   year: number;
-  type: "painting" | "drawing" | "sketch" | "sculpture" | "collage" | "other";
+  type:
+    | "painting"
+    | "drawing"
+    | "sketch"
+    | "sculpture"
+    | "collage"
+    | "other"
+    | "furniture painting";
   imagePath: string; // Path relative to src/assets/work/
   tags: string[];
   description?: string;

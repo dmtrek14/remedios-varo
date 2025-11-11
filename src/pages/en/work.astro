@@ -1,14 +1,32 @@
 ---
-import Layout from '@/layouts/Layout.astro'
+import Layout from '@/layouts/Layout.astro';
+import ArtworkGallery from '@/components/solid/ArtworkGallery';
+import { artworks } from '@/data/artworks';
+
+const locale = 'en';
 ---
 
-<Layout>
-    <section class='mb-12'>
-		<h1 class='text-2xl font-bold mb-6 border-b pb-2'>
-		Work
+<Layout
+	title='The Work of Remedios Varo'
+	description='Explore the complete collection of works by Remedios Varo, the Spanish-Mexican surrealist artist.'
+>
+	<section class='mb-12'>
+		<h1 class='text-4xl font-bold mb-4 border-b-2 border-primary pb-3'>
+			The Work
 		</h1>
-		<p class='text-lg'>
-		This is a page of work
+		<p class='text-lg text-base-content/80 mb-8'>
+			Explore the fascinating collection of works by Remedios Varo. Use the filters to discover paintings, drawings, and more.
 		</p>
+
+		<ArtworkGallery artworks={artworks} locale={locale} client:load />
 	</section>
 </Layout>
+
+<style is:global>
+	.line-clamp-2 {
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+</style>

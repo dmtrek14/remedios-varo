@@ -1,4 +1,4 @@
-import type { Artwork } from './artworks';
+import type { Artwork } from "./artworks";
 
 /**
  * Generated artwork data
@@ -13,3363 +13,3391 @@ import type { Artwork } from './artworks';
  */
 export const generatedArtworks: Artwork[] = [
   {
-    id: '196-acantilado',
-    title: 'Acantilado',
-    titleEs: 'Acantilado',
+    id: "196-acantilado",
+    title: "Acantilado",
+    titleEs: "Acantilado",
     year: 1962,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '196-acantilado.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "196-acantilado.jpg",
+    tags: ["oil", "masonite"],
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '44-ah-cest-abominable-ce-qui-est-arrivé',
-    title: 'Ah Cest Abominable Ce Qui Est Arrivé',
-    titleEs: 'Ah Cest Abominable Ce Qui Est Arrivé',
+    id: "44-ah-cest-abominable-ce-qui-est-arrivé",
+    title: "Ah Cest Abominable Ce Qui Est Arrivé",
+    titleEs: "Ah Cest Abominable Ce Qui Est Arrivé",
     year: 1962,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '44-ah-cest-abominable-ce-qui-est-arrivé.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "drawing",
+    imagePath: "44-ah-cest-abominable-ce-qui-est-arrivé.jpg",
+    tags: ["collage", "paper"],
+    medium: "Collage/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '74-alegoría-de-invierno-invierno',
-    title: 'AlegoríA De Invierno Invierno',
-    titleEs: 'AlegoríA De Invierno Invierno',
+    id: "74-alegoría-de-invierno-invierno",
+    title: "Alegoría De Invierno Invierno",
+    titleEs: "Alegoría De Invierno Invierno",
     year: 1962,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '74-alegoría-de-invierno-invierno.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "74-alegoría-de-invierno-invierno.jpg",
+    tags: ["paper", "gouache"],
+    medium: "Gouache/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '258-a-mi-amigo-agustín-lazo',
-    title: 'A Mi Amigo AgustíN Lazo',
-    titleEs: 'A Mi Amigo AgustíN Lazo',
+    id: "258-a-mi-amigo-agustín-lazo",
+    title: "A Mi Amigo Agustín Lazo",
+    titleEs: "A Mi Amigo Agustín Lazo",
     year: 1948,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '258-a-mi-amigo-agustín-lazo.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "258-a-mi-amigo-agustín-lazo.jpg",
+    tags: ["paper", "gouache"],
+    medium: "Gouache/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '236-amibiasis-los-vegetales-tifoidea,-paratifoide',
-    title: 'Amibiasis Los Vegetales Tifoidea, Paratifoide',
-    titleEs: 'Amibiasis Los Vegetales Tifoidea, Paratifoide',
+    id: "236-amibiasis-los-vegetales-tifoidea,-paratifoide",
+    title: "Amibiasis Los Vegetales Tifoidea, Paratifoide",
+    titleEs: "Amibiasis Los Vegetales Tifoidea, Paratifoide",
     year: 1945,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '236-amibiasis-los-vegetales-tifoidea,-paratifoide.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "236-amibiasis-los-vegetales-tifoidea,-paratifoide.jpg",
+    tags: ["commercial", "Casa Bayer", "cardstock", "gouache"],
+    medium: "Gouache/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '26-angustia-pesadilla',
-    title: 'Angustia Pesadilla',
-    titleEs: 'Angustia Pesadilla',
+    id: "26-angustia-pesadilla",
+    title: "Angustia Pesadilla",
+    titleEs: "Angustia Pesadilla",
     year: 1947,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '26-angustia-pesadilla.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "26-angustia-pesadilla.jpg",
+    tags: ["commercial", "Casa Bayer", "cardstock", "gouache"],
+    medium: "Gouache/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '127-animales',
-    title: 'Animales',
-    titleEs: 'Animales',
+    id: "127-animales",
+    title: "Animales",
+    titleEs: "Animales",
     year: 1947,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '127-animales.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "drawing",
+    imagePath: "127-animales.jpg",
+    tags: ["cardstock", "chalk", "cats"],
+    medium: "Colored Chalk/Black Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '67-animal-fantástico',
-    title: 'Animal FantáStico',
-    titleEs: 'Animal FantáStico',
+    id: "67-animal-fantástico",
+    title: "Animal FantáStico",
+    titleEs: "Animal FantáStico",
     year: 1958,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '67-animal-fantástico.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "67-animal-fantástico.jpg",
+    tags: ["cardstock", "gouache"],
+    medium: "Gouache/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '149-apártalos-que-voy-de-paso',
-    title: 'ApáRtalos Que Voy De Paso',
-    titleEs: 'ApáRtalos Que Voy De Paso',
+    id: "149-apártalos-que-voy-de-paso",
+    title: "Apártalos Que Voy de Paso",
+    titleEs: "Apártalos Que Voy de Paso",
     year: 1959,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '149-apártalos-que-voy-de-paso.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "149-apártalos-que-voy-de-paso.jpg",
+    tags: ["cardstock", "gouache"],
+    medium: "Gouache/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '155-aprendiz-de-ícaro',
-    title: 'Aprendiz De íCaro',
-    titleEs: 'Aprendiz De íCaro',
+    id: "155-aprendiz-de-ícaro",
+    title: "Aprendiz de ícaro",
+    titleEs: "Aprendiz de ícaro",
     year: 1959,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '155-aprendiz-de-ícaro.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "drawing",
+    imagePath: "155-aprendiz-de-ícaro.jpg",
+    tags: ["pencil", "blood", "cardstock"],
+    medium: "Pencil and Blood/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '70-armonía-autorretrato-sugerente',
-    title: 'ArmoníA Autorretrato Sugerente',
-    titleEs: 'ArmoníA Autorretrato Sugerente',
+    id: "70-armonía-autorretrato-sugerente",
+    title: "Armonía Autorretrato Sugerente",
+    titleEs: "Armonía Autorretrato Sugerente",
     year: 1959,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '70-armonía-autorretrato-sugerente.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "70-armonía-autorretrato-sugerente.jpg",
+    tags: ["oil", "masonite"],
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '61-armonía-boceto',
-    title: 'ArmoníA Boceto',
-    titleEs: 'ArmoníA Boceto',
+    id: "61-armonía-boceto",
+    title: "Armonía Boceto",
+    titleEs: "Armonía Boceto",
     year: 1956,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '61-armonía-boceto.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "drawing",
+    imagePath: "61-armonía-boceto.jpg",
+    tags: ["pencil", "paper"],
+    medium: "Pencil/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '126-arquitectura-vegetal',
-    title: 'Arquitectura Vegetal',
-    titleEs: 'Arquitectura Vegetal',
-    year: 1956,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '126-arquitectura-vegetal.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
-  },
-  {
-    id: '64-ascensión-al-monte-análogo',
-    title: 'AscensióN Al Monte AnáLogo',
-    titleEs: 'AscensióN Al Monte AnáLogo',
+    id: "126-arquitectura-vegetal",
+    title: "Arquitectura Vegetal",
+    titleEs: "Arquitectura Vegetal",
     year: 1962,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '64-ascensión-al-monte-análogo.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "126-arquitectura-vegetal.jpg",
+    tags: ["oil", "fabric"],
+    medium: "Oil/Fabric",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '169-as-del-volante',
-    title: 'As Del Volante',
-    titleEs: 'As Del Volante',
+    id: "64-ascensión-al-monte-análogo",
+    title: "Ascensión al Monte Análogo",
+    titleEs: "Ascensión al Monte Análogo",
     year: 1960,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '169-as-del-volante.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "64-ascensión-al-monte-análogo.jpg",
+    tags: ["oil", "plywood"],
+    medium: "Oil/Plywood",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '188-astro-errante',
-    title: 'Astro Errante',
-    titleEs: 'Astro Errante',
+    id: "169-as-del-volante",
+    title: "As del Volante",
+    titleEs: "As del Volante",
     year: 1962,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '188-astro-errante.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "169-as-del-volante.jpg",
+    tags: ["cardstock", "mixed"],
+    medium: "Mixed/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '201-au-bonheur-des-dames-au-bonheur-de-citoyens-la-dicha-de-las-señoras',
-    title: 'Au Bonheur Des Dames Au Bonheur De Citoyens La Dicha De Las SeñOras',
-    titleEs: 'Au Bonheur Des Dames Au Bonheur De Citoyens La Dicha De Las SeñOras',
+    id: "188-astro-errante",
+    title: "Astro Errante",
+    titleEs: "Astro Errante",
     year: 1961,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '201-au-bonheur-des-dames-au-bonheur-de-citoyens-la-dicha-de-las-señoras.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "188-astro-errante.jpg",
+    tags: ["oil", "masonite"],
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '234-aurora-espías-internacionales',
-    title: 'Aurora EspíAs Internacionales',
-    titleEs: 'Aurora EspíAs Internacionales',
+    id: "201-au-bonheur-des-dames-au-bonheur-de-citoyens-la-dicha-de-las-señoras",
+    title:
+      "Au Bonheur des Dames (Au Bonheur De Citoyens) (La Dicha De Las Señoras)",
+    titleEs:
+      "Au Bonheur des Dames (Au Bonheur De Citoyens) (La Dicha De Las Señoras)",
     year: 1956,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '234-aurora-espías-internacionales.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath:
+      "201-au-bonheur-des-dames-au-bonheur-de-citoyens-la-dicha-de-las-señoras.jpg",
+    tags: ["oil", "masonite"],
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '211-autorretrato',
-    title: 'Autorretrato',
-    titleEs: 'Autorretrato',
+    id: "234-aurora-espías-internacionales",
+    title: "Aurora (Espías Internacionales)",
+    titleEs: "Aurora (Espías Internacionales)",
     year: 1962,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '211-autorretrato.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "234-aurora-espías-internacionales.jpg",
+    tags: ["oil", "masonite"],
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '161-aves',
-    title: 'Aves',
-    titleEs: 'Aves',
+    id: "211-autorretrato",
+    title: "Autorretrato",
+    titleEs: "Autorretrato",
     year: 1951,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '161-aves.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "drawing",
+    imagePath: "211-autorretrato.jpg",
+    tags: ["pencil", "paper"],
+    medium: "Pencil/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '164-banqueros-en-acción',
-    title: 'Banqueros En AccióN',
-    titleEs: 'Banqueros En AccióN',
+    id: "161-aves",
+    title: "Aves",
+    titleEs: "Aves",
     year: 1961,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '164-banqueros-en-acción.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "161-aves.jpg",
+    tags: ["butter paper", "mixed"],
+    medium: "Mixed/Butter Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '209-boceto-para-biombo',
-    title: 'Boceto Para Biombo',
-    titleEs: 'Boceto Para Biombo',
+    id: "164-banqueros-en-acción",
+    title: "Banqueros en Acción",
+    titleEs: "Banqueros en Acción",
     year: 1962,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '209-boceto-para-biombo.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "164-banqueros-en-acción.jpg",
+    tags: ["oil", "masonite"],
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '203-bordando-el-manto-lunar',
-    title: 'Bordando El Manto Lunar',
-    titleEs: 'Bordando El Manto Lunar',
+    id: "209-boceto-para-biombo",
+    title: "Boceto Para Biombo",
+    titleEs: "Boceto Para Biombo",
     year: 1950,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '203-bordando-el-manto-lunar.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "drawing",
+    imagePath: "209-boceto-para-biombo.jpg",
+    tags: ["pencil", "paper"],
+    medium: "Pencil/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '243-bordando-el-manto-terrestre---panel-central-del-tríptico',
-    title: 'Bordando El Manto Terrestre   Panel Central Del TríPtico',
-    titleEs: 'Bordando El Manto Terrestre   Panel Central Del TríPtico',
+    id: "203-bordando-el-manto-lunar",
+    title: "Bordando el Manto Lunar",
+    titleEs: "Bordando el Manto Lunar",
     year: 1956,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '243-bordando-el-manto-terrestre---panel-central-del-tríptico.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "203-bordando-el-manto-lunar.jpg",
+    tags: ["mixed", "paper"],
+    medium: "Mixed/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '173-bruja-que-va-al-sabath',
-    title: 'Bruja Que Va Al Sabath',
-    titleEs: 'Bruja Que Va Al Sabath',
+    id: "243-bordando-el-manto-terrestre---panel-central-del-tríptico",
+    title: "Bordando el Manto Terrestre (Panel Central Del Tríptico)",
+    titleEs: "Bordando el Manto Terrestre (Panel Central Del Tríptico)",
     year: 1961,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '173-bruja-que-va-al-sabath.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath:
+      "243-bordando-el-manto-terrestre---panel-central-del-tríptico.jpg",
+    tags: ["oil", "masonite"],
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '240-caballero-encantado',
-    title: 'Caballero Encantado',
-    titleEs: 'Caballero Encantado',
+    id: "173-bruja-que-va-al-sabath",
+    title: "Bruja que va al Sabath",
+    titleEs: "Bruja que va al Sabath",
     year: 1957,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '240-caballero-encantado.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "173-bruja-que-va-al-sabath.jpg",
+    tags: ["mixed", "paper"],
+    medium: "Mixed/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '183-caballero-encantado',
-    title: 'Caballero Encantado',
-    titleEs: 'Caballero Encantado',
+    id: "240-caballero-encantado",
+    title: "Caballero Encantado",
+    titleEs: "Caballero Encantado",
     year: 1962,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '183-caballero-encantado.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "240-caballero-encantado.jpg",
+    tags: ["oil", "cardstock", "masonite"],
+    medium: "Oil/Cardstock/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '157-caballero-en-monociclo',
-    title: 'Caballero En Monociclo',
-    titleEs: 'Caballero En Monociclo',
+    id: "183-caballero-encantado",
+    title: "Caballero Encantado",
+    titleEs: "Caballero Encantado",
     year: 1961,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '157-caballero-en-monociclo.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "183-caballero-encantado.jpg",
+    tags: ["mixed", "cardstock"],
+    medium: "Mixed/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '69-cabeza-de-homo-rodans',
-    title: 'Cabeza De Homo Rodans',
-    titleEs: 'Cabeza De Homo Rodans',
+    id: "157-caballero-en-monociclo",
+    title: "Caballero en Monociclo",
+    titleEs: "Caballero en Monociclo",
     year: 1959,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '69-cabeza-de-homo-rodans.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "157-caballero-en-monociclo.jpg",
+    tags: ["oil", "cardboard"],
+    medium: "Oil/Cardboard",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '31-cadavre-exquis',
-    title: 'Cadavre Exquis',
-    titleEs: 'Cadavre Exquis',
+    id: "69-cabeza-de-homo-rodans",
+    title: "Cabeza de Homo Rodans",
+    titleEs: "Cabeza de Homo Rodans",
     year: 1959,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '31-cadavre-exquis.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "69-cabeza-de-homo-rodans.jpg",
+    tags: ["gouache", "cardstock"],
+    medium: "Gouache/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '37-cadavre-exquis-0',
-    title: 'Cadavre Exquis 0',
-    titleEs: 'Cadavre Exquis 0',
+    id: "31-cadavre-exquis",
+    title: "Cadavre Exquis",
+    titleEs: "Cadavre Exquis",
     year: 1935,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '37-cadavre-exquis-0.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "collage",
+    imagePath: "31-cadavre-exquis.jpg",
+    tags: ["collage", "paper"],
+    medium: "Collage/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '79-cadavre-exquis-a',
-    title: 'Cadavre Exquis A',
-    titleEs: 'Cadavre Exquis A',
+    id: "37-cadavre-exquis-0",
+    title: "Cadavre Exquis 0",
+    titleEs: "Cadavre Exquis 0",
     year: 1935,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '79-cadavre-exquis-a.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "collage",
+    imagePath: "37-cadavre-exquis-0.jpg",
+    tags: ["collage", "paper"],
+    medium: "Collage/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '24-cadavre-exquis-b',
-    title: 'Cadavre Exquis B',
-    titleEs: 'Cadavre Exquis B',
+    id: "79-cadavre-exquis-a",
+    title: "Cadavre Exquis A",
+    titleEs: "Cadavre Exquis A",
     year: 1935,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '24-cadavre-exquis-b.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "collage",
+    imagePath: "79-cadavre-exquis-a.jpg",
+    tags: ["collage", "paper"],
+    medium: "Collage/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '33-cadavre-exquis-c',
-    title: 'Cadavre Exquis C',
-    titleEs: 'Cadavre Exquis C',
+    id: "24-cadavre-exquis-b",
+    title: "Cadavre Exquis B",
+    titleEs: "Cadavre Exquis B",
     year: 1935,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '33-cadavre-exquis-c.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "drawing",
+    imagePath: "24-cadavre-exquis-b.jpg",
+    tags: ["pencil", "paper"],
+    medium: "Pencil/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '39-cadavre-exquis-d',
-    title: 'Cadavre Exquis D',
-    titleEs: 'Cadavre Exquis D',
+    id: "33-cadavre-exquis-c",
+    title: "Cadavre Exquis C",
+    titleEs: "Cadavre Exquis C",
     year: 1935,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '39-cadavre-exquis-d.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "drawing",
+    imagePath: "33-cadavre-exquis-c.jpg",
+    tags: ["pencil", "paper"],
+    medium: "Pencil/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '47-caja-de-jean-nicolle-exterior',
-    title: 'Caja De Jean Nicolle Exterior',
-    titleEs: 'Caja De Jean Nicolle Exterior',
+    id: "39-cadavre-exquis-d",
+    title: "Cadavre Exquis D",
+    titleEs: "Cadavre Exquis D",
     year: 1935,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '47-caja-de-jean-nicolle-exterior.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "drawing",
+    imagePath: "39-cadavre-exquis-d.jpg",
+    tags: ["mixed", "paper"],
+    medium: "Mixed/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '78-caja-de-jean-nicolle-interior',
-    title: 'Caja De Jean Nicolle Interior',
-    titleEs: 'Caja De Jean Nicolle Interior',
+    id: "47-caja-de-jean-nicolle-exterior",
+    title: "Caja de Jean Nicolle Exterior",
+    titleEs: "Caja de Jean Nicolle Exterior",
     year: 1948,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '78-caja-de-jean-nicolle-interior.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "furniture painting",
+    imagePath: "47-caja-de-jean-nicolle-exterior.jpg",
+    tags: ["oil", "metal", "wood", "mirror"],
+    medium: "Oil/Metal and Inlaid Mirror/Wood",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '48-caja-de-norah-horna-exterior',
-    title: 'Caja De Norah Horna Exterior',
-    titleEs: 'Caja De Norah Horna Exterior',
+    id: "78-caja-de-jean-nicolle-interior",
+    title: "Caja de Jean Nicolle Interior",
+    titleEs: "Caja de Jean Nicolle Interior",
     year: 1948,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '48-caja-de-norah-horna-exterior.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "furniture painting",
+    imagePath: "78-caja-de-jean-nicolle-interior.jpg",
+    tags: ["oil", "metal", "wood", "mirror"],
+    medium: "Oil/Metal and Inlaid Mirror/Wood",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '282-caja-de-norah-horna-interior',
-    title: 'Caja De Norah Horna Interior',
-    titleEs: 'Caja De Norah Horna Interior',
+    id: "48-caja-de-norah-horna-exterior",
+    title: "Caja de Norah Horna Exterior",
+    titleEs: "Caja de Norah Horna Exterior",
     year: 1948,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '282-caja-de-norah-horna-interior.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "furniture painting", // TODO: Update with correct type based on medium
+    imagePath: "48-caja-de-norah-horna-exterior.jpg",
+    tags: ["oil", "metal", "wood", "mirror", "gold leaf", "cats"],
+    medium: "Oil/Gold Leaf, Metal and Mirror",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '75-cambio-de-tiempo',
-    title: 'Cambio De Tiempo',
-    titleEs: 'Cambio De Tiempo',
+    id: "282-caja-de-norah-horna-interior",
+    title: "Caja de Norah Horna Interior",
+    titleEs: "Caja de Norah Horna Interior",
     year: 1948,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '75-cambio-de-tiempo.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "furniture painting", // TODO: Update with correct type based on medium
+    imagePath: "282-caja-de-norah-horna-interior.jpg",
+    tags: ["oil", "metal", "wood", "mirror", "gold leaf"],
+    medium: "Oil/Gold Leaf, Metal, and Mirror",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '197-camino-árido',
-    title: 'Camino áRido',
-    titleEs: 'Camino áRido',
+    id: "75-cambio-de-tiempo",
+    title: "Cambio de Tiempo",
+    titleEs: "Cambio de Tiempo",
     year: 1948,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '197-camino-árido.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "75-cambio-de-tiempo.jpg",
+    tags: ["gouache", "cardstock", "Casa Bayer"],
+    medium: "Gouache/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '58-caminos-tortuosos',
-    title: 'Caminos Tortuosos',
-    titleEs: 'Caminos Tortuosos',
+    id: "197-camino-árido",
+    title: "Camino árido",
+    titleEs: "Camino árido",
     year: 1962,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '58-caminos-tortuosos.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "197-camino-árido.jpg",
+    tags: ["vinyl", "cardstock"],
+    medium: "Vinyl/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '257-cara-con-cabellera-de-liquen',
-    title: 'Cara Con Cabellera De Liquen',
-    titleEs: 'Cara Con Cabellera De Liquen',
+    id: "58-caminos-tortuosos",
+    title: "Caminos Tortuosos",
+    titleEs: "Caminos Tortuosos",
     year: 1957,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '257-cara-con-cabellera-de-liquen.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "58-caminos-tortuosos.jpg",
+    tags: ["mixed", "cardboard"],
+    medium: "Mixed/Cardboard",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '138-carta-de-tarot',
-    title: 'Carta De Tarot',
-    titleEs: 'Carta De Tarot',
+    id: "257-cara-con-cabellera-de-liquen",
+    title: "Cara con Cabellera de Liquen",
+    titleEs: "Cara con Cabellera de Liquen",
     year: 1947,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '138-carta-de-tarot.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "drawing",
+    imagePath: "257-cara-con-cabellera-de-liquen.jpg",
+    tags: ["pen", "paper"],
+    medium: "Pen and Magenta Wash/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '105-catálogo-de-sombras',
-    title: 'CatáLogo De Sombras',
-    titleEs: 'CatáLogo De Sombras',
+    id: "138-carta-de-tarot",
+    title: "Carta de Tarot",
+    titleEs: "Carta de Tarot",
     year: 1957,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '105-catálogo-de-sombras.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "138-carta-de-tarot.jpg",
+    tags: ["oil", "bone"],
+    medium: "Oil/Bone",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '176-catedral-vegetal',
-    title: 'Catedral Vegetal',
-    titleEs: 'Catedral Vegetal',
+    id: "105-catálogo-de-sombras",
+    title: "Catálogo de Sombras",
+    titleEs: "Catálogo de Sombras",
     year: 1935,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '176-catedral-vegetal.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "collage",
+    imagePath: "105-catálogo-de-sombras.jpg",
+    tags: ["paper"],
+    medium: "Collage/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '175-catedral-vegetal',
-    title: 'Catedral Vegetal',
-    titleEs: 'Catedral Vegetal',
+    id: "176-catedral-vegetal",
+    title: "Catedral Vegetal",
+    titleEs: "Catedral Vegetal",
     year: 1957,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '175-catedral-vegetal.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "176-catedral-vegetal.jpg",
+    tags: ["gouache", "paper"],
+    medium: "Gouache/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '72-cazadora-de-astros-la-luna-aprisionada',
-    title: 'Cazadora De Astros La Luna Aprisionada',
-    titleEs: 'Cazadora De Astros La Luna Aprisionada',
+    id: "175-catedral-vegetal",
+    title: "Catedral Vegetal",
+    titleEs: "Catedral Vegetal",
     year: 1957,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '72-cazadora-de-astros-la-luna-aprisionada.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "175-catedral-vegetal.jpg",
+    tags: ["oil", "masonite"],
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '113-caza-nocturna',
-    title: 'Caza Nocturna',
-    titleEs: 'Caza Nocturna',
+    id: "72-cazadora-de-astros-la-luna-aprisionada",
+    title: "Cazadora de Astros (La Luna Aprisionada)",
+    titleEs: "Cazadora de Astros (La Luna Aprisionada)",
     year: 1956,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '113-caza-nocturna.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "72-cazadora-de-astros-la-luna-aprisionada.jpg",
+    tags: ["cardstock", "mixed"],
+    medium: "Mixed/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '223-centro-del-universo-personaje',
-    title: 'Centro Del Universo Personaje',
-    titleEs: 'Centro Del Universo Personaje',
+    id: "113-caza-nocturna",
+    title: "Caza Nocturna",
+    titleEs: "Caza Nocturna",
     year: 1958,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '223-centro-del-universo-personaje.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "113-caza-nocturna.jpg",
+    tags: ["mixed", "cardstock"],
+    medium: "Mixed/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '274-ciencia-inútil-o-el-alquimista-laberinto-mecánico',
-    title: 'Ciencia InúTil O El Alquimista Laberinto MecáNico',
-    titleEs: 'Ciencia InúTil O El Alquimista Laberinto MecáNico',
+    id: "223-centro-del-universo-personaje",
+    title: "Centro del Universo (Personaje)",
+    titleEs: "Centro del Universo (Personaje)",
     year: 1961,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '274-ciencia-inútil-o-el-alquimista-laberinto-mecánico.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "223-centro-del-universo-personaje.jpg",
+    tags: ["gouache", "cardboard"],
+    medium: "Gouache/Cardboard",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '150-coincidencia',
-    title: 'Coincidencia',
-    titleEs: 'Coincidencia',
+    id: "274-ciencia-inútil-o-el-alquimista-laberinto-mecánico",
+    title: "Ciencia Inútil o El Alquimista (Laberinto Mecánico)",
+    titleEs: "Ciencia Inútil o El Alquimista (Laberinto Mecánico)",
     year: 1955,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '150-coincidencia.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "274-ciencia-inútil-o-el-alquimista-laberinto-mecánico.jpg",
+    tags: ["oil", "masonite"],
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '100-comme-un-rêve-como-un-sueño',
-    title: 'Comme Un RêVe Como Un SueñO',
-    titleEs: 'Comme Un RêVe Como Un SueñO',
+    id: "150-coincidencia",
+    title: "Coincidencia",
+    titleEs: "Coincidencia",
     year: 1959,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '100-comme-un-rêve-como-un-sueño.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "150-coincidencia.jpg",
+    tags: ["oil", "fabric"],
+    medium: "Oil/Fabric",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '81-composición',
-    title: 'ComposicióN',
-    titleEs: 'ComposicióN',
+    id: "100-comme-un-rêve-como-un-sueño",
+    title: "Comme Un Rêve (Como un Sueño)",
+    titleEs: "Comme Un Rêve (Como un Sueño)",
     year: 1938,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '81-composición.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "drawing",
+    imagePath: "100-comme-un-rêve-como-un-sueño.jpg",
+    tags: ["ink", "paper"],
+    medium: "Ink/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '185-constructores-de-instrumentos-musicales',
-    title: 'Constructores De Instrumentos Musicales',
-    titleEs: 'Constructores De Instrumentos Musicales',
+    id: "81-composición",
+    title: "Composición",
+    titleEs: "ComposicióNN",
     year: 1935,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '185-constructores-de-instrumentos-musicales.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "drawing",
+    imagePath: "81-composición.jpg",
+    tags: ["ink", "paper"],
+    medium: "Ink and Wash/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '212-correspondances',
-    title: 'Correspondances',
-    titleEs: 'Correspondances',
+    id: "185-constructores-de-instrumentos-musicales",
+    title: "Constructores de Instrumentos Musicales",
+    titleEs: "Constructores de Instrumentos Musicales",
     year: 1961,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '212-correspondances.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "collage",
+    imagePath: "185-constructores-de-instrumentos-musicales.jpg",
+    tags: ["collage", "cardboard"],
+    medium: "Collage/Cardboard",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '144-cortina-o-visión',
-    title: 'Cortina O VisióN',
-    titleEs: 'Cortina O VisióN',
+    id: "212-correspondances",
+    title: "Correspondances",
+    titleEs: "Correspondances",
     year: 1951,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '144-cortina-o-visión.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "212-correspondances.jpg",
+    tags: ["gouache", "cardstock"],
+    medium: "Gouache/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '222-creación-con-rayos-astrales-sin-titulo',
-    title: 'CreacióN Con Rayos Astrales Sin Titulo',
-    titleEs: 'CreacióN Con Rayos Astrales Sin Titulo',
+    id: "144-cortina-o-visión",
+    title: "Cortina o Visión",
+    titleEs: "Cortina o Visión",
     year: 1959,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '222-creación-con-rayos-astrales-sin-titulo.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "drawing",
+    imagePath: "144-cortina-o-visión.jpg",
+    tags: ["ink", "paper"],
+    medium: "Ink/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '57-creación-de-las-aves',
-    title: 'CreacióN De Las Aves',
-    titleEs: 'CreacióN De Las Aves',
+    id: "222-creación-con-rayos-astrales-sin-titulo",
+    title: "Creación con Rayos Astrales (Sin Titulo)",
+    titleEs: "Creación con Rayos Astrales (Sin Titulo)",
     year: 1955,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '57-creación-de-las-aves.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "222-creación-con-rayos-astrales-sin-titulo.jpg",
+    tags: ["oil", "tempera", "masonite"],
+    medium: "Oil and Tempera/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '107-creación-del-mundo-o-microcosmos',
-    title: 'CreacióN Del Mundo O Microcosmos',
-    titleEs: 'CreacióN Del Mundo O Microcosmos',
+    id: "57-creación-de-las-aves",
+    title: "Creación de las Aves",
+    titleEs: "Creación de las Aves",
     year: 1957,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '107-creación-del-mundo-o-microcosmos.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "57-creación-de-las-aves.jpg",
+    tags: ["oil", "masonite"],
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '208-dama-felina',
-    title: 'Dama Felina',
-    titleEs: 'Dama Felina',
+    id: "107-creación-del-mundo-o-microcosmos",
+    title: "Creación del Mundo o Microcosmos",
+    titleEs: "Creación del Mundo o Microcosmos",
     year: 1958,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '208-dama-felina.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "107-creación-del-mundo-o-microcosmos.jpg",
+    tags: ["mural study", "gouache", "cardstock"],
+    medium: "Gouache/Cardstock",
+    description: "A study done for the mural in the hospital pavillion",
+    descriptionEs:
+      "Un estudio realizado para el mural en la pavillon de hospital",
   },
   {
-    id: '181-descubrimiento-de-un-geólogo-mutante-hallazgo-del-botánico-mutante',
-    title: 'Descubrimiento De Un GeóLogo Mutante Hallazgo Del BotáNico Mutante',
-    titleEs: 'Descubrimiento De Un GeóLogo Mutante Hallazgo Del BotáNico Mutante',
+    id: "208-dama-felina",
+    title: "Dama Felina",
+    titleEs: "Dama Felina",
     year: 1950,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '181-descubrimiento-de-un-geólogo-mutante-hallazgo-del-botánico-mutante.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "drawing",
+    imagePath: "208-dama-felina.jpg",
+    tags: ["pencil", "paper"],
+    medium: "Pencil/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '90-discuten-la-madre-del-niño-y-la-raptora',
-    title: 'Discuten La Madre Del NiñO Y La Raptora',
-    titleEs: 'Discuten La Madre Del NiñO Y La Raptora',
+    id: "181-descubrimiento-de-un-geólogo-mutante-hallazgo-del-botánico-mutante",
+    title:
+      "Descubrimiento de un Geólogo Mutante (Hallazgo del Botánico Mutante)",
+    titleEs:
+      "Descubrimiento de un Geólogo Mutante (Hallazgo del Botánico Mutante)",
     year: 1961,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '90-discuten-la-madre-del-niño-y-la-raptora.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath:
+      "181-descubrimiento-de-un-geólogo-mutante-hallazgo-del-botánico-mutante.jpg",
+    tags: ["oil", "masonite"],
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '277-distorción-cristalina',
-    title: 'DistorcióN Cristalina',
-    titleEs: 'DistorcióN Cristalina',
+    id: "90-discuten-la-madre-del-niño-y-la-raptora",
+    title: "Discuten la Madre del Niño y la Raptora",
+    titleEs: "Discuten la Madre del Niño y la Raptora",
     year: 1935,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '277-distorción-cristalina.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "collage",
+    imagePath: "90-discuten-la-madre-del-niño-y-la-raptora.jpg",
+    tags: ["collage", "paper"],
+    medium: "Collage/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '46-dolor',
-    title: 'Dolor',
-    titleEs: 'Dolor',
+    id: "277-distorción-cristalina",
+    title: "Distorción Cristalina",
+    titleEs: "Distorción Cristalina",
     year: 1949,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '46-dolor.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "drawing",
+    imagePath: "277-distorción-cristalina.jpg",
+    tags: ["pen", "ink", "cardstock"],
+    medium: "Chinese Ink and Pen/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '3-dolor-reumático-i-dolor-reumático',
-    title: 'Dolor ReumáTico I Dolor ReumáTico',
-    titleEs: 'Dolor ReumáTico I Dolor ReumáTico',
+    id: "46-dolor",
+    title: "Dolor",
+    titleEs: "Dolor",
     year: 1948,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '3-dolor-reumático-i-dolor-reumático.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "46-dolor.jpg",
+    tags: ["gouache", "cardstock", "Casa Bayer"],
+    medium: "Gouache/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '261-dolor-reumático-ii-reuma,-lumbago,-ciática',
-    title: 'Dolor ReumáTico Ii Reuma, Lumbago, CiáTica',
-    titleEs: 'Dolor ReumáTico Ii Reuma, Lumbago, CiáTica',
+    id: "3-dolor-reumático-i-dolor-reumático",
+    title: "Dolor Reumático I (Dolor Reumático)",
+    titleEs: "Dolor Reumático I (Dolor Reumático)",
     year: 1948,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '261-dolor-reumático-ii-reuma,-lumbago,-ciática.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "3-dolor-reumático-i-dolor-reumático.jpg",
+    tags: ["gouache", "cardstock", "Casa Bayer"],
+    medium: "Gouache/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '218-dos-personajes',
-    title: 'Dos Personajes',
-    titleEs: 'Dos Personajes',
+    id: "261-dolor-reumático-ii-reuma,-lumbago,-ciática",
+    title: "Dolor Reumático II (Reuma, Lumbago, Ciática)",
+    titleEs: "Dolor Reumático II (Reuma, Lumbago, Ciática)",
     year: 1948,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '218-dos-personajes.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "261-dolor-reumático-ii-reuma,-lumbago,-ciática.jpg",
+    tags: ["gouache", "cardstock", "Casa Bayer"],
+    medium: "Gouache/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '43-el-encuentro',
-    title: 'El Encuentro',
-    titleEs: 'El Encuentro',
+    id: "218-dos-personajes",
+    title: "Dos Personajes",
+    titleEs: "Dos Personajes",
     year: 1949,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '43-el-encuentro.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "drawing",
+    imagePath: "218-dos-personajes.jpg",
+    tags: ["pencil", "paper"],
+    medium: "Pencil/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '273-el-flautista',
-    title: 'El Flautista',
-    titleEs: 'El Flautista',
+    id: "43-el-encuentro",
+    title: "El Encuentro",
+    titleEs: "El Encuentro",
     year: 1962,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '273-el-flautista.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "43-el-encuentro.jpg",
+    tags: ["vinyl", "cardstock"],
+    medium: "Vinyl/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '130-el-gato-helecho',
-    title: 'El Gato Helecho',
-    titleEs: 'El Gato Helecho',
+    id: "273-el-flautista",
+    title: "El Flautista",
+    titleEs: "El Flautista",
     year: 1955,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '130-el-gato-helecho.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "273-el-flautista.jpg",
+    tags: ["oil", "mother of pearl", "masonite"],
+    medium: "Oil/Incrusted Mother of Pearl/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '77-el-hombre-de-la-guadaña-muerte-en-el-mercado-tifoidea',
-    title: 'El Hombre De La GuadañA Muerte En El Mercado Tifoidea',
-    titleEs: 'El Hombre De La GuadañA Muerte En El Mercado Tifoidea',
+    id: "130-el-gato-helecho",
+    title: "El Gato Helecho",
+    titleEs: "El Gato Helecho",
     year: 1957,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '77-el-hombre-de-la-guadaña-muerte-en-el-mercado-tifoidea.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "130-el-gato-helecho.jpg",
+    tags: ["oil", "masonite", "cat"],
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '122-el-labrador',
-    title: 'El Labrador',
-    titleEs: 'El Labrador',
+    id: "77-el-hombre-de-la-guadaña-muerte-en-el-mercado-tifoidea",
+    title: "El Hombre de la Guadaña (Muerte en el Mercado) (Tifoidea)",
+    titleEs: "El Hombre de la Guadaña (Muerte en el Mercado) (Tifoidea)",
     year: 1947,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '122-el-labrador.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "77-el-hombre-de-la-guadaña-muerte-en-el-mercado-tifoidea.jpg",
+    tags: ["gouache", "cardstock", "Casa Bayer"],
+    medium: "Gouache/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '53-el-malabarista-o-el-juglar-el-prestidigitador',
-    title: 'El Malabarista O El Juglar El Prestidigitador',
-    titleEs: 'El Malabarista O El Juglar El Prestidigitador',
+    id: "122-el-labrador",
+    title: "El Labrador",
+    titleEs: "El Labrador",
     year: 1958,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '53-el-malabarista-o-el-juglar-el-prestidigitador.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "122-el-labrador.jpg",
+    tags: ["gouache", "paper", "masonite"],
+    medium: "Gouache/Paper/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '145-el-minotauro',
-    title: 'El Minotauro',
-    titleEs: 'El Minotauro',
+    id: "53-el-malabarista-o-el-juglar-el-prestidigitador",
+    title: "El Malabarista o el Juglar (El Prestidigitador)",
+    titleEs: "El Malabarista o el Juglar (El Prestidigitador)",
     year: 1956,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '145-el-minotauro.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "53-el-malabarista-o-el-juglar-el-prestidigitador.jpg",
+    tags: ["oil", "mother of pearl", "masonite"],
+    medium: "Oil/Inlaid Mother of Pearl/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '120-el-mundo',
-    title: 'El Mundo',
-    titleEs: 'El Mundo',
+    id: "145-el-minotauro",
+    title: "El Minotauro",
+    titleEs: "El Minotauro",
+    year: 1959,
+    type: "painting",
+    imagePath: "145-el-minotauro.jpg",
+    tags: ["oil", "masonite"],
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
+  },
+  {
+    id: "El-moño-azul-1925",
+    title: "El Moño Azul",
+    titleEs: "El Moño Azul",
     year: 1925,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '120-el-mundo.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "El-moño-azul-1925.jpg",
+    tags: [],
+    medium: "",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '132-el-otro-reloj',
-    title: 'El Otro Reloj',
-    titleEs: 'El Otro Reloj',
+    id: "120-el-mundo",
+    title: "El Mundo",
+    titleEs: "El Mundo",
     year: 1958,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '132-el-otro-reloj.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "120-el-mundo.jpg",
+    tags: ["gouache", "paper", "masonite", "costume design"],
+    medium: "Gouache/Paper/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '118-el-pobre',
-    title: 'El Pobre',
-    titleEs: 'El Pobre',
+    id: "132-el-otro-reloj",
+    title: "El Otro Reloj",
+    titleEs: "El Otro Reloj",
     year: 1957,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '118-el-pobre.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "132-el-otro-reloj.jpg",
+    tags: ["gouache", "cardstock"],
+    medium: "Gouache/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '177-el-rapsoda-trovador',
-    title: 'El Rapsoda Trovador',
-    titleEs: 'El Rapsoda Trovador',
+    id: "118-el-pobre",
+    title: "El Pobre",
+    titleEs: "El Pobre",
     year: 1958,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '177-el-rapsoda-trovador.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "118-el-pobre.jpg",
+    tags: ["gouache", "paper", "masonite", "costume design"],
+    medium: "Gouache/Paper/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '117-el-rey',
-    title: 'El Rey',
-    titleEs: 'El Rey',
+    id: "177-el-rapsoda-trovador",
+    title: "El Rapsoda (Trovador)",
+    titleEs: "El Rapsoda (Trovador)",
     year: 1957,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '117-el-rey.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "drawing",
+    imagePath: "177-el-rapsoda-trovador.jpg",
+    tags: ["pencil", "paper"],
+    medium: "Pencil/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '115-el-rico',
-    title: 'El Rico',
-    titleEs: 'El Rico',
+    id: "117-el-rey",
+    title: "El Rey",
+    titleEs: "El Rey",
     year: 1958,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '115-el-rico.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "117-el-rey.jpg",
+    tags: ["gouache", "paper", "masonite", "costume design"],
+    medium: "Gouache/Paper/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '158-el-signo-de-cancer',
-    title: 'El Signo De Cancer',
-    titleEs: 'El Signo De Cancer',
+    id: "115-el-rico",
+    title: "El Rico",
+    titleEs: "El Rico",
     year: 1958,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '158-el-signo-de-cancer.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "115-el-rico.jpg",
+    tags: ["gouache", "paper", "masonite", "costume design"],
+    medium: "Gouache/Paper/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '146-el-trovador',
-    title: 'El Trovador',
-    titleEs: 'El Trovador',
+    id: "158-el-signo-de-cancer",
+    title: "El Signo de Cancer",
+    titleEs: "El Signo de Cancer",
+    year: 1958,
+    type: "drawing",
+    imagePath: "158-el-signo-de-cancer.jpg",
+    tags: ["silver tip", "paper"],
+    medium: "Silver tip/Paper",
+    description: "",
+    descriptionEs: "",
+  },
+  {
+    id: "146-el-trovador",
+    title: "El Trovador",
+    titleEs: "El Trovador",
     year: 1959,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '146-el-trovador.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "146-el-trovador.jpg",
+    tags: ["oil", "masonite"],
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '137-el-vagabundo-cara-de-mario-stern',
-    title: 'El Vagabundo Cara De Mario Stern',
-    titleEs: 'El Vagabundo Cara De Mario Stern',
-    year: 1959,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '137-el-vagabundo-cara-de-mario-stern.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
-  },
-  {
-    id: '116-el-visitante-visitante-inesperado-visita-inesperada',
-    title: 'El Visitante Visitante Inesperado Visita Inesperada',
-    titleEs: 'El Visitante Visitante Inesperado Visita Inesperada',
+    id: "137-el-vagabundo-cara-de-mario-stern",
+    title: "El Vagabundo (Cara de Mario Stern)",
+    titleEs: "El Vagabundo (Cara de Mario Stern)",
     year: 1957,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '116-el-visitante-visitante-inesperado-visita-inesperada.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "137-el-vagabundo-cara-de-mario-stern.jpg",
+    tags: ["pencil", "gouache", "paper"],
+    medium: "Pencil and Gouache/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '35-el-zorro-y-la-ley',
-    title: 'El Zorro Y La Ley',
-    titleEs: 'El Zorro Y La Ley',
+    id: "116-el-visitante-visitante-inesperado-visita-inesperada",
+    title: "El Visitante (Visitante Inesperado) (Visita Inesperada)",
+    titleEs: "El Visitante (Visitante Inesperado) (Visita Inesperada)",
     year: 1959,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '35-el-zorro-y-la-ley.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "116-el-visitante-visitante-inesperado-visita-inesperada.jpg",
+    tags: ["oil", "cardstock"],
+    medium: "Oil/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '170-emigrantes',
-    title: 'Emigrantes',
-    titleEs: 'Emigrantes',
+    id: "35-el-zorro-y-la-ley",
+    title: "El Zorro y La Ley",
+    titleEs: "El Zorro y La Ley",
     year: 1943,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '170-emigrantes.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "drawing",
+    imagePath: "35-el-zorro-y-la-ley.jpg",
+    tags: ["pencil", "paper"],
+    medium: "Pencil/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '152-encuentro',
-    title: 'Encuentro',
-    titleEs: 'Encuentro',
+    id: "170-emigrantes",
+    title: "Emigrantes",
+    titleEs: "Emigrantes",
     year: 1962,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '152-encuentro.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "170-emigrantes.jpg",
+    tags: ["mixed", "cardstock"],
+    medium: "Mixed/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '124-encuentro-la-cita',
-    title: 'Encuentro La Cita',
-    titleEs: 'Encuentro La Cita',
+    id: "152-encuentro",
+    title: "Encuentro",
+    titleEs: "Encuentro",
     year: 1959,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '124-encuentro-la-cita.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "152-encuentro.jpg",
+    tags: ["oil", "fabric"],
+    medium: "Oil/Fabric",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '71-energía-cósmica-inspiración',
-    title: 'EnergíA CóSmica InspiracióN',
-    titleEs: 'EnergíA CóSmica InspiracióN',
+    id: "124-encuentro-la-cita",
+    title: "Encuentro (La Cita)",
+    titleEs: "Encuentro (La Cita)",
     year: 1959,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '71-energía-cósmica-inspiración.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "124-encuentro-la-cita.jpg",
+    tags: ["oil", "masonite"],
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '269-ermitaño-meditando',
-    title: 'ErmitañO Meditando',
-    titleEs: 'ErmitañO Meditando',
+    id: "71-energía-cósmica-inspiración",
+    title: "Energía Cósmica (Inspiración)",
+    titleEs: "Energía Cósmica (Inspiración)",
     year: 1956,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '269-ermitaño-meditando.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "71-energía-cósmica-inspiración.jpg",
+    tags: ["gouache", "cardboard", "cats"],
+    medium: "Gouache/Cardboard",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '225-espejo-para-tocador',
-    title: 'Espejo Para Tocador',
-    titleEs: 'Espejo Para Tocador',
+    id: "269-ermitaño-meditando",
+    title: "Ermitaño Meditando",
+    titleEs: "Ermitaño Meditando",
     year: 1955,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '225-espejo-para-tocador.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "269-ermitaño-meditando.jpg",
+    tags: ["oil", "mother of pearl", "masonite"],
+    medium: "Oil/Inlaid Mother of Pearl/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '228-espejo-para-tocador',
-    title: 'Espejo Para Tocador',
-    titleEs: 'Espejo Para Tocador',
+    id: "225-espejo-para-tocador",
+    title: "Espejo para Tocador",
+    titleEs: "Espejo para Tocador",
     year: 1954,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '228-espejo-para-tocador.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "furniture painting",
+    imagePath: "225-espejo-para-tocador.jpg",
+    tags: ["oil", "silver leaf", "crystal", "cat"],
+    medium: "Oil/Silver Leaf/Crystal",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '231-esquiador',
-    title: 'Esquiador',
-    titleEs: 'Esquiador',
+    id: "228-espejo-para-tocador",
+    title: "Espejo para Tocador",
+    titleEs: "Espejo para Tocador",
     year: 1954,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '231-esquiador.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "furniture painting",
+    imagePath: "228-espejo-para-tocador.jpg",
+    tags: ["oil", "silver leaf", "crystal", "cat"],
+    medium: "Oil and Silver Leaf/Crystal",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '241-esquiador-viajero',
-    title: 'Esquiador Viajero',
-    titleEs: 'Esquiador Viajero',
+    id: "231-esquiador",
+    title: "Esquiador",
+    titleEs: "Esquiador",
     year: 1960,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '241-esquiador-viajero.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "231-esquiador.jpg",
+    tags: ["oil", "cardboard"],
+    medium: "Oil/Cardboard",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '163-expedición-del-aqua-áurea',
-    title: 'ExpedicióN Del Aqua áUrea',
-    titleEs: 'ExpedicióN Del Aqua áUrea',
+    id: "241-esquiador-viajero",
+    title: "Esquiador (Viajero)",
+    titleEs: "Esquiador (Viajero)",
     year: 1960,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '163-expedición-del-aqua-áurea.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "241-esquiador-viajero.jpg",
+    tags: ["oil", "masonite"],
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '153-exploración-de-las-fuentes-del-río-orinoco',
-    title: 'ExploracióN De Las Fuentes Del RíO Orinoco',
-    titleEs: 'ExploracióN De Las Fuentes Del RíO Orinoco',
+    id: "163-expedición-del-aqua-áurea",
+    title: "Expedición del Aqua Áurea",
+    titleEs: "Expedición del Aqua Áurea",
     year: 1962,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '153-exploración-de-las-fuentes-del-río-orinoco.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "163-expedición-del-aqua-áurea.jpg",
+    tags: ["oil", "masonite"],
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '237-explorador-piloto',
-    title: 'Explorador Piloto',
-    titleEs: 'Explorador Piloto',
+    id: "153-exploración-de-las-fuentes-del-río-orinoco",
+    title: "Exploración de las Fuentes del Río Orinoco",
+    titleEs: "Exploración de las Fuentes del Río Orinoco",
     year: 1959,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '237-explorador-piloto.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "153-exploración-de-las-fuentes-del-río-orinoco.jpg",
+    tags: ["oil", "fabric"],
+    medium: "Oil/Fabric",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '166-fenómeno',
-    title: 'FenóMeno',
-    titleEs: 'FenóMeno',
+    id: "237-explorador-piloto",
+    title: "Explorador Piloto",
+    titleEs: "Explorador Piloto",
     year: 1960,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '166-fenómeno.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "237-explorador-piloto.jpg",
+    tags: ["mixed", "cardstock"],
+    medium: "Mixed/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '199-fenómeno-de-ingravidez-fenómeno-de-ingravedad',
-    title: 'FenóMeno De Ingravidez FenóMeno De Ingravedad',
-    titleEs: 'FenóMeno De Ingravidez FenóMeno De Ingravedad',
+    id: "166-fenómeno",
+    title: "Fenómeno",
+    titleEs: "Fenómeno",
     year: 1962,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '199-fenómeno-de-ingravidez-fenómeno-de-ingravedad.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "166-fenómeno.jpg",
+    tags: ["oil", "masonite"],
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '19-festival-de-mosquitos',
-    title: 'Festival De Mosquitos',
-    titleEs: 'Festival De Mosquitos',
+    id: "199-fenómeno-de-ingravidez-fenómeno-de-ingravedad",
+    title: "Fenómeno de Ingravidez (Fenómeno De Ingravedad)",
+    titleEs: "Fenómeno de Ingravidez (Fenómeno De Ingravedad)",
     year: 1963,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '19-festival-de-mosquitos.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "199-fenómeno-de-ingravidez-fenómeno-de-ingravedad.jpg",
+    tags: ["oil", "fabric"],
+    medium: "Oil/Fabric",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '36-figuras-cadavre-exquis',
-    title: 'Figuras Cadavre Exquis',
-    titleEs: 'Figuras Cadavre Exquis',
+    id: "19-festival-de-mosquitos",
+    title: "Festival de Mosquitos",
+    titleEs: "Festival de Mosquitos",
     year: 1942,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '36-figuras-cadavre-exquis.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "19-festival-de-mosquitos.jpg",
+    tags: ["oil", "wax", "cardboard"],
+    medium: "Oil and Wax/Cardboard",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '280-frío-invierno',
-    title: 'FríO Invierno',
-    titleEs: 'FríO Invierno',
+    id: "36-figuras-cadavre-exquis",
+    title: "Figuras (Cadavre Exquis)",
+    titleEs: "Figuras (Cadavre Exquis)",
     year: 1935,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '280-frío-invierno.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "collage",
+    imagePath: "36-figuras-cadavre-exquis.jpg",
+    tags: ["collage", "paper"],
+    medium: "Collage/ Sepia Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '13-funambulistas',
-    title: 'Funambulistas',
-    titleEs: 'Funambulistas',
+    id: "280-frío-invierno",
+    title: "Frío (Invierno)",
+    titleEs: "Frío (Invierno)",
     year: 1948,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '13-funambulistas.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "painting",
+    imagePath: "280-frío-invierno.jpg",
+    tags: ["gouache", "cardstock", "Casa Bayer"],
+    medium: "Gouache/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '10-funambulistas',
-    title: 'Funambulistas',
-    titleEs: 'Funambulistas',
+    id: "13-funambulistas",
+    title: "Funambulistas",
+    titleEs: "Funambulistas",
     year: 1944,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '10-funambulistas.jpg',
-    tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    type: "drawing",
+    imagePath: "13-funambulistas.jpg",
+    tags: ["ink", "paper"],
+    medium: "Ink/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '9-funambulistas-la-funambulista',
-    title: 'Funambulistas La Funambulista',
-    titleEs: 'Funambulistas La Funambulista',
+    id: "10-funambulistas",
+    title: "Funambulistas",
+    titleEs: "Funambulistas",
     year: 1944,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '9-funambulistas-la-funambulista.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "10-funambulistas.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Pencil/Butter Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '50-gato',
-    title: 'Gato',
-    titleEs: 'Gato',
+    id: "9-funambulistas-la-funambulista",
+    title: "Funambulistas La Funambulista",
+    titleEs: "Funambulistas La Funambulista",
     year: 1944,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '50-gato.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "9-funambulistas-la-funambulista.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Tempera/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '7-gato-hombre',
-    title: 'Gato Hombre',
-    titleEs: 'Gato Hombre',
+    id: "50-gato",
+    title: "Gato",
+    titleEs: "Gato",
+    year: 1944,
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "50-gato.jpg",
+    tags: [], // TODO: Add relevant tags
+    medium: "Crayola/Paper",
+    description: "",
+    descriptionEs: "",
+  },
+  {
+    id: "7-gato-hombre",
+    title: "Gato Hombre",
+    titleEs: "Gato Hombre",
     year: 1956,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '7-gato-hombre.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "7-gato-hombre.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Aquatint, Sepia/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '251-gitana-y-arlequín',
-    title: 'Gitana Y ArlequíN',
-    titleEs: 'Gitana Y ArlequíN',
+    id: "251-gitana-y-arlequín",
+    title: "Gitana Y ArlequíN",
+    titleEs: "Gitana Y ArlequíN",
     year: 1943,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '251-gitana-y-arlequín.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "251-gitana-y-arlequín.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '29-gruta-mágica-i',
-    title: 'Gruta MáGica I',
-    titleEs: 'Gruta MáGica I',
+    id: "29-gruta-mágica-i",
+    title: "Gruta MáGica I",
+    titleEs: "Gruta MáGica I",
     year: 1947,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '29-gruta-mágica-i.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "29-gruta-mágica-i.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Mixed/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '34-gruta-mágica-ii-deseo-ii',
-    title: 'Gruta MáGica Ii Deseo Ii',
-    titleEs: 'Gruta MáGica Ii Deseo Ii',
+    id: "34-gruta-mágica-ii-deseo-ii",
+    title: "Gruta MáGica Ii Deseo Ii",
+    titleEs: "Gruta MáGica Ii Deseo Ii",
     year: 1942,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '34-gruta-mágica-ii-deseo-ii.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "34-gruta-mágica-ii-deseo-ii.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Ink and Gouache/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '249-gruta-mágica-iii',
-    title: 'Gruta MáGica Iii',
-    titleEs: 'Gruta MáGica Iii',
+    id: "249-gruta-mágica-iii",
+    title: "Gruta MáGica Iii",
+    titleEs: "Gruta MáGica Iii",
     year: 1942,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '249-gruta-mágica-iii.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "249-gruta-mágica-iii.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Mixed/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '23-gruta-mágica-iv',
-    title: 'Gruta MáGica Iv',
-    titleEs: 'Gruta MáGica Iv',
+    id: "23-gruta-mágica-iv",
+    title: "Gruta MáGica Iv",
+    titleEs: "Gruta MáGica Iv",
     year: 1942,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '23-gruta-mágica-iv.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "23-gruta-mágica-iv.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Ink/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '141-guajolote-navideño',
-    title: 'Guajolote NavideñO',
-    titleEs: 'Guajolote NavideñO',
+    id: "141-guajolote-navideño",
+    title: "Guajolote NavideñO",
+    titleEs: "Guajolote NavideñO",
     year: 1942,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '141-guajolote-navideño.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "141-guajolote-navideño.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Inked and Sgraffito Gesso/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '184-hacia-acuario',
-    title: 'Hacia Acuario',
-    titleEs: 'Hacia Acuario',
+    id: "184-hacia-acuario",
+    title: "Hacia Acuario",
+    titleEs: "Hacia Acuario",
     year: 1959,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '184-hacia-acuario.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "184-hacia-acuario.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Fabric",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '244-hacia-la-torre---primera-panel-del-tríptico',
-    title: 'Hacia La Torre   Primera Panel Del TríPtico',
-    titleEs: 'Hacia La Torre   Primera Panel Del TríPtico',
+    id: "244-hacia-la-torre---primera-panel-del-tríptico",
+    title: "Hacia La Torre   Primera Panel Del TríPtico",
+    titleEs: "Hacia La Torre   Primera Panel Del TríPtico",
     year: 1961,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '244-hacia-la-torre---primera-panel-del-tríptico.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "244-hacia-la-torre---primera-panel-del-tríptico.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '266-hallazgo',
-    title: 'Hallazgo',
-    titleEs: 'Hallazgo',
+    id: "266-hallazgo",
+    title: "Hallazgo",
+    titleEs: "Hallazgo",
     year: 1960,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '266-hallazgo.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "266-hallazgo.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '210-hallazgo-fase-inicial-de-un-trabajo-bosque',
-    title: 'Hallazgo Fase Inicial De Un Trabajo Bosque',
-    titleEs: 'Hallazgo Fase Inicial De Un Trabajo Bosque',
+    id: "210-hallazgo-fase-inicial-de-un-trabajo-bosque",
+    title: "Hallazgo Fase Inicial De Un Trabajo Bosque",
+    titleEs: "Hallazgo Fase Inicial De Un Trabajo Bosque",
     year: 1956,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '210-hallazgo-fase-inicial-de-un-trabajo-bosque.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "210-hallazgo-fase-inicial-de-un-trabajo-bosque.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '8-hibernación',
-    title: 'HibernacióN',
-    titleEs: 'HibernacióN',
+    id: "8-hibernación",
+    title: "HibernacióN",
+    titleEs: "HibernacióN",
     year: 1956,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '8-hibernación.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "8-hibernación.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Fabric",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '73-homo-rodans',
-    title: 'Homo Rodans',
-    titleEs: 'Homo Rodans',
+    id: "73-homo-rodans",
+    title: "Homo Rodans",
+    titleEs: "Homo Rodans",
     year: 1942,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '73-homo-rodans.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "73-homo-rodans.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '125-homo-rodans---escultura',
-    title: 'Homo Rodans   Escultura',
-    titleEs: 'Homo Rodans   Escultura',
+    id: "125-homo-rodans---escultura",
+    title: "Homo Rodans   Escultura",
+    titleEs: "Homo Rodans   Escultura",
     year: 1959,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '125-homo-rodans---escultura.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "125-homo-rodans---escultura.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Chicken, turkey, and fish bone sculpture",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '25-icono-exterior',
-    title: 'Icono Exterior',
-    titleEs: 'Icono Exterior',
+    id: "25-icono-exterior",
+    title: "Icono Exterior",
+    titleEs: "Icono Exterior",
     year: 1959,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '25-icono-exterior.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "25-icono-exterior.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Inlaid mother-of-pearl/Wood",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '11-icono-interior',
-    title: 'Icono Interior',
-    titleEs: 'Icono Interior',
+    id: "11-icono-interior",
+    title: "Icono Interior",
+    titleEs: "Icono Interior",
     year: 1945,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '11-icono-interior.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "11-icono-interior.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Inlaid mother-of-pearl/Wood",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '16-insomnio-i',
-    title: 'Insomnio I',
-    titleEs: 'Insomnio I',
+    id: "16-insomnio-i",
+    title: "Insomnio I",
+    titleEs: "Insomnio I",
     year: 1945,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '16-insomnio-i.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "16-insomnio-i.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '5-insomnio-ii-insomnio',
-    title: 'Insomnio Ii Insomnio',
-    titleEs: 'Insomnio Ii Insomnio',
+    id: "5-insomnio-ii-insomnio",
+    title: "Insomnio Ii Insomnio",
+    titleEs: "Insomnio Ii Insomnio",
     year: 1947,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '5-insomnio-ii-insomnio.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "5-insomnio-ii-insomnio.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '168-internado-ambulante',
-    title: 'Internado Ambulante',
-    titleEs: 'Internado Ambulante',
+    id: "168-internado-ambulante",
+    title: "Internado Ambulante",
+    titleEs: "Internado Ambulante",
     year: 1947,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '168-internado-ambulante.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "168-internado-ambulante.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Mixed/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '28-invierno',
-    title: 'Invierno',
-    titleEs: 'Invierno',
+    id: "28-invierno",
+    title: "Invierno",
+    titleEs: "Invierno",
     year: 1962,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '28-invierno.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "28-invierno.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Goauche/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '259-invierno-o-mejor-vitaminas',
-    title: 'Invierno O Mejor Vitaminas',
-    titleEs: 'Invierno O Mejor Vitaminas',
+    id: "259-invierno-o-mejor-vitaminas",
+    title: "Invierno O Mejor Vitaminas",
+    titleEs: "Invierno O Mejor Vitaminas",
     year: 1944,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '259-invierno-o-mejor-vitaminas.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "259-invierno-o-mejor-vitaminas.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Cardboard",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '192-invocación',
-    title: 'InvocacióN',
-    titleEs: 'InvocacióN',
+    id: "192-invocación",
+    title: "InvocacióN",
+    titleEs: "InvocacióN",
     year: 1948,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '192-invocación.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "192-invocación.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Vinyl/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '219-jardin-damour',
-    title: 'Jardin Damour',
-    titleEs: 'Jardin Damour',
+    id: "219-jardin-damour",
+    title: "Jardin Damour",
+    titleEs: "Jardin Damour",
     year: 1963,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '219-jardin-damour.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "219-jardin-damour.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '229-jean-nicolle',
-    title: 'Jean Nicolle',
-    titleEs: 'Jean Nicolle',
+    id: "229-jean-nicolle",
+    title: "Jean Nicolle",
+    titleEs: "Jean Nicolle",
     year: 1951,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '229-jean-nicolle.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "229-jean-nicolle.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Word",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '139-la-abeja-adolorida',
-    title: 'La Abeja Adolorida',
-    titleEs: 'La Abeja Adolorida',
+    id: "139-la-abeja-adolorida",
+    title: "La Abeja Adolorida",
+    titleEs: "La Abeja Adolorida",
     year: 1948,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '139-la-abeja-adolorida.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "139-la-abeja-adolorida.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Mixed/Glass Coated with Gold leaf and Leather",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '260-la-batalla',
-    title: 'La Batalla',
-    titleEs: 'La Batalla',
+    id: "260-la-batalla",
+    title: "La Batalla",
+    titleEs: "La Batalla",
     year: 1957,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '260-la-batalla.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "260-la-batalla.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '224-labios',
-    title: 'Labios',
-    titleEs: 'Labios',
+    id: "224-labios",
+    title: "Labios",
+    titleEs: "Labios",
     year: 1947,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '224-labios.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "224-labios.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Pencil/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '252-laboratorio',
-    title: 'Laboratorio',
-    titleEs: 'Laboratorio',
+    id: "252-laboratorio",
+    title: "Laboratorio",
+    titleEs: "Laboratorio",
     year: 1935,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '252-laboratorio.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "252-laboratorio.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Cardboard",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '49-la-calle-de-las-presencias-ocultas-dibujo-personaje',
-    title: 'La Calle De Las Presencias Ocultas Dibujo Personaje',
-    titleEs: 'La Calle De Las Presencias Ocultas Dibujo Personaje',
+    id: "49-la-calle-de-las-presencias-ocultas-dibujo-personaje",
+    title: "La Calle De Las Presencias Ocultas Dibujo Personaje",
+    titleEs: "La Calle De Las Presencias Ocultas Dibujo Personaje",
     year: 1947,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '49-la-calle-de-las-presencias-ocultas-dibujo-personaje.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "49-la-calle-de-las-presencias-ocultas-dibujo-personaje.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Pencil/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '110-la-despedida',
-    title: 'La Despedida',
-    titleEs: 'La Despedida',
+    id: "110-la-despedida",
+    title: "La Despedida",
+    titleEs: "La Despedida",
     year: 1956,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '110-la-despedida.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "110-la-despedida.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Fabric",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '119-la-discreción',
-    title: 'La DiscrecióN',
-    titleEs: 'La DiscrecióN',
+    id: "119-la-discreción",
+    title: "La DiscrecióN",
+    titleEs: "La DiscrecióN",
     year: 1958,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '119-la-discreción.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "119-la-discreción.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Paper/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '147-lady-godiva',
-    title: 'Lady Godiva',
-    titleEs: 'Lady Godiva',
+    id: "147-lady-godiva",
+    title: "Lady Godiva",
+    titleEs: "Lady Godiva",
     year: 1958,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '147-lady-godiva.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "147-lady-godiva.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Ivory",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '101-la-faim-el-hambre',
-    title: 'La Faim El Hambre',
-    titleEs: 'La Faim El Hambre',
+    id: "101-la-faim-el-hambre",
+    title: "La Faim El Hambre",
+    titleEs: "La Faim El Hambre",
     year: 1959,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '101-la-faim-el-hambre.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "101-la-faim-el-hambre.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache and Pastel/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '103-la-familia-de-cisnes',
-    title: 'La Familia De Cisnes',
-    titleEs: 'La Familia De Cisnes',
+    id: "103-la-familia-de-cisnes",
+    title: "La Familia De Cisnes",
+    titleEs: "La Familia De Cisnes",
     year: 1938,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '103-la-familia-de-cisnes.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "103-la-familia-de-cisnes.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Collage/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '94-lagent-double-el-agente-doble-el-doble-agente',
-    title: 'Lagent Double El Agente Doble El Doble Agente',
-    titleEs: 'Lagent Double El Agente Doble El Doble Agente',
+    id: "94-lagent-double-el-agente-doble-el-doble-agente",
+    title: "Lagent Double El Agente Doble El Doble Agente",
+    titleEs: "Lagent Double El Agente Doble El Doble Agente",
     year: 1935,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '94-lagent-double-el-agente-doble-el-doble-agente.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "94-lagent-double-el-agente-doble-el-doble-agente.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Copper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '121-la-hermosura',
-    title: 'La Hermosura',
-    titleEs: 'La Hermosura',
+    id: "121-la-hermosura",
+    title: "La Hermosura",
+    titleEs: "La Hermosura",
     year: 1936,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '121-la-hermosura.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "121-la-hermosura.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Pencil/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '242-la-huida---tercer-panel-del-tríptico',
-    title: 'La Huida   Tercer Panel Del TríPtico',
-    titleEs: 'La Huida   Tercer Panel Del TríPtico',
+    id: "242-la-huida---tercer-panel-del-tríptico",
+    title: "La Huida   Tercer Panel Del TríPtico",
+    titleEs: "La Huida   Tercer Panel Del TríPtico",
     year: 1958,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '242-la-huida---tercer-panel-del-tríptico.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "242-la-huida---tercer-panel-del-tríptico.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '88-la-leçon-danatomie-la-lección-de-anatomía',
-    title: 'La LeçOn Danatomie La LeccióN De AnatomíA',
-    titleEs: 'La LeçOn Danatomie La LeccióN De AnatomíA',
+    id: "88-la-leçon-danatomie-la-lección-de-anatomía",
+    title: "La LeçOn Danatomie La LeccióN De AnatomíA",
+    titleEs: "La LeçOn Danatomie La LeccióN De AnatomíA",
     year: 1961,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '88-la-leçon-danatomie-la-lección-de-anatomía.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "88-la-leçon-danatomie-la-lección-de-anatomía.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Collage/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '195-la-llamada-el-llamado',
-    title: 'La Llamada El Llamado',
-    titleEs: 'La Llamada El Llamado',
+    id: "195-la-llamada-el-llamado",
+    title: "La Llamada El Llamado",
+    titleEs: "La Llamada El Llamado",
     year: 1935,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '195-la-llamada-el-llamado.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "195-la-llamada-el-llamado.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '86-las-almas-de-los-montes-espíritus-de-la-montaña',
-    title: 'Las Almas De Los Montes EspíRitus De La MontañA',
-    titleEs: 'Las Almas De Los Montes EspíRitus De La MontañA',
+    id: "86-las-almas-de-los-montes-espíritus-de-la-montaña",
+    title: "Las Almas De Los Montes EspíRitus De La MontañA",
+    titleEs: "Las Almas De Los Montes EspíRitus De La MontañA",
     year: 1961,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '86-las-almas-de-los-montes-espíritus-de-la-montaña.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "86-las-almas-de-los-montes-espíritus-de-la-montaña.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Plywood",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '205-la-sorceresse-the-enchantress',
-    title: 'La Sorceresse The Enchantress',
-    titleEs: 'La Sorceresse The Enchantress',
+    id: "205-la-sorceresse-the-enchantress",
+    title: "La Sorceresse The Enchantress",
+    titleEs: "La Sorceresse The Enchantress",
     year: 1938,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '205-la-sorceresse-the-enchantress.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "205-la-sorceresse-the-enchantress.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Ink and Sgraffito/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '215-la-tarea',
-    title: 'La Tarea',
-    titleEs: 'La Tarea',
+    id: "215-la-tarea",
+    title: "La Tarea",
+    titleEs: "La Tarea",
     year: 1952,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '215-la-tarea.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "215-la-tarea.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '204-la-tejedora-de-verona',
-    title: 'La Tejedora De Verona',
-    titleEs: 'La Tejedora De Verona',
+    id: "204-la-tejedora-de-verona",
+    title: "La Tejedora De Verona",
+    titleEs: "La Tejedora De Verona",
     year: 1955,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '204-la-tejedora-de-verona.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "204-la-tejedora-de-verona.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '275-la-tejedora-roja-mujer-roja-la-tejedora',
-    title: 'La Tejedora Roja Mujer Roja La Tejedora',
-    titleEs: 'La Tejedora Roja Mujer Roja La Tejedora',
+    id: "275-la-tejedora-roja-mujer-roja-la-tejedora",
+    title: "La Tejedora Roja Mujer Roja La Tejedora",
+    titleEs: "La Tejedora Roja Mujer Roja La Tejedora",
     year: 1956,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '275-la-tejedora-roja-mujer-roja-la-tejedora.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "275-la-tejedora-roja-mujer-roja-la-tejedora.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Fabric",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '52-la-torre',
-    title: 'La Torre',
-    titleEs: 'La Torre',
+    id: "52-la-torre",
+    title: "La Torre",
+    titleEs: "La Torre",
     year: 1956,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '52-la-torre.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "52-la-torre.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '255-la-torre',
-    title: 'La Torre',
-    titleEs: 'La Torre',
+    id: "255-la-torre",
+    title: "La Torre",
+    titleEs: "La Torre",
     year: 1948,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '255-la-torre.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "255-la-torre.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '134-la-torre-de-marfil',
-    title: 'La Torre De Marfil',
-    titleEs: 'La Torre De Marfil',
+    id: "134-la-torre-de-marfil",
+    title: "La Torre De Marfil",
+    titleEs: "La Torre De Marfil",
     year: 1947,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '134-la-torre-de-marfil.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "134-la-torre-de-marfil.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Mixed/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '84-la-traversée-la-travesía',
-    title: 'La TraverséE La TravesíA',
-    titleEs: 'La TraverséE La TravesíA',
+    id: "84-la-traversée-la-travesía",
+    title: "La TraverséE La TravesíA",
+    titleEs: "La TraverséE La TravesíA",
     year: 1957,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '84-la-traversée-la-travesía.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "84-la-traversée-la-travesía.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Collage and Tempera/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '85-lattente-la-espera-la-cama-alliberadora-de-les-amibes-gegant-il-était-tard',
-    title: 'Lattente La Espera La Cama Alliberadora De Les Amibes Gegant Il éTait Tard',
-    titleEs: 'Lattente La Espera La Cama Alliberadora De Les Amibes Gegant Il éTait Tard',
+    id: "85-lattente-la-espera-la-cama-alliberadora-de-les-amibes-gegant-il-était-tard",
+    title:
+      "Lattente La Espera La Cama Alliberadora De Les Amibes Gegant Il éTait Tard",
+    titleEs:
+      "Lattente La Espera La Cama Alliberadora De Les Amibes Gegant Il éTait Tard",
     year: 1935,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '85-lattente-la-espera-la-cama-alliberadora-de-les-amibes-gegant-il-était-tard.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath:
+      "85-lattente-la-espera-la-cama-alliberadora-de-les-amibes-gegant-il-était-tard.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "None",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '165-lecole-buissonnière-haciendo-novillos',
-    title: 'Lecole BuissonnièRe Haciendo Novillos',
-    titleEs: 'Lecole BuissonnièRe Haciendo Novillos',
+    id: "165-lecole-buissonnière-haciendo-novillos",
+    title: "Lecole BuissonnièRe Haciendo Novillos",
+    titleEs: "Lecole BuissonnièRe Haciendo Novillos",
     year: 1936,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '165-lecole-buissonnière-haciendo-novillos.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "165-lecole-buissonnière-haciendo-novillos.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '30-le-dernier-romantique-a-été-enculé-par-le-maréchal-pétain',
-    title: 'Le Dernier Romantique A éTé Enculé Par Le MaréChal PéTain',
-    titleEs: 'Le Dernier Romantique A éTé Enculé Par Le MaréChal PéTain',
+    id: "30-le-dernier-romantique-a-été-enculé-par-le-maréchal-pétain",
+    title: "Le Dernier Romantique A éTé Enculé Par Le MaréChal PéTain",
+    titleEs: "Le Dernier Romantique A éTé Enculé Par Le MaréChal PéTain",
     year: 1962,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '30-le-dernier-romantique-a-été-enculé-par-le-maréchal-pétain.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath:
+      "30-le-dernier-romantique-a-été-enculé-par-le-maréchal-pétain.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Mixed/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '102-le-desir-el-deseo',
-    title: 'Le Desir El Deseo',
-    titleEs: 'Le Desir El Deseo',
+    id: "102-le-desir-el-deseo",
+    title: "Le Desir El Deseo",
+    titleEs: "Le Desir El Deseo",
     year: 1941,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '102-le-desir-el-deseo.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "102-le-desir-el-deseo.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Wax and Mixed Media in a box",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '80-le-message',
-    title: 'Le Message',
-    titleEs: 'Le Message',
+    id: "80-le-message",
+    title: "Le Message",
+    titleEs: "Le Message",
     year: 1935,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '80-le-message.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "80-le-message.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Collage/Cardboard",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '106-le-pianiste-masqué-el-pianista-enmascarado',
-    title: 'Le Pianiste Masqué El Pianista Enmascarado',
-    titleEs: 'Le Pianiste Masqué El Pianista Enmascarado',
+    id: "106-le-pianiste-masqué-el-pianista-enmascarado",
+    title: "Le Pianiste Masqué El Pianista Enmascarado",
+    titleEs: "Le Pianiste Masqué El Pianista Enmascarado",
     year: 1935,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '106-le-pianiste-masqué-el-pianista-enmascarado.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "106-le-pianiste-masqué-el-pianista-enmascarado.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Collage/Cardboard",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '1-les-feuilles-mortes-les-heures-mortes-el-hilo',
-    title: 'Les Feuilles Mortes Les Heures Mortes El Hilo',
-    titleEs: 'Les Feuilles Mortes Les Heures Mortes El Hilo',
+    id: "1-les-feuilles-mortes-les-heures-mortes-el-hilo",
+    title: "Les Feuilles Mortes Les Heures Mortes El Hilo",
+    titleEs: "Les Feuilles Mortes Les Heures Mortes El Hilo",
     year: 1935,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '1-les-feuilles-mortes-les-heures-mortes-el-hilo.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "1-les-feuilles-mortes-les-heures-mortes-el-hilo.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Cardboard",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '123-les-murés',
-    title: 'Les MuréS',
-    titleEs: 'Les MuréS',
+    id: "123-les-murés",
+    title: "Les MuréS",
+    titleEs: "Les MuréS",
     year: 1956,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '123-les-murés.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "123-les-murés.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Mixed Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '83-l-étoffe-des-rêves-la-tela-de-los-sueños',
-    title: 'L éToffe Des RêVes La Tela De Los SueñOs',
-    titleEs: 'L éToffe Des RêVes La Tela De Los SueñOs',
+    id: "83-l-étoffe-des-rêves-la-tela-de-los-sueños",
+    title: "L éToffe Des RêVes La Tela De Los SueñOs",
+    titleEs: "L éToffe Des RêVes La Tela De Los SueñOs",
     year: 1958,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '83-l-étoffe-des-rêves-la-tela-de-los-sueños.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "83-l-étoffe-des-rêves-la-tela-de-los-sueños.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Watercolor/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '40-locomoción-acuática-taxi-acuático',
-    title: 'LocomocióN AcuáTica Taxi AcuáTico',
-    titleEs: 'LocomocióN AcuáTica Taxi AcuáTico',
+    id: "40-locomoción-acuática-taxi-acuático",
+    title: "LocomocióN AcuáTica Taxi AcuáTico",
+    titleEs: "LocomocióN AcuáTica Taxi AcuáTico",
     year: 1935,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '40-locomoción-acuática-taxi-acuático.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "40-locomoción-acuática-taxi-acuático.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Mixed/Cardstock/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '148-locomoción-capilar-detectives',
-    title: 'LocomocióN Capilar Detectives',
-    titleEs: 'LocomocióN Capilar Detectives',
+    id: "148-locomoción-capilar-detectives",
+    title: "LocomocióN Capilar Detectives",
+    titleEs: "LocomocióN Capilar Detectives",
     year: 1963,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '148-locomoción-capilar-detectives.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "148-locomoción-capilar-detectives.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '18-los-alacranes',
-    title: 'Los Alacranes',
-    titleEs: 'Los Alacranes',
+    id: "18-los-alacranes",
+    title: "Los Alacranes",
+    titleEs: "Los Alacranes",
     year: 1959,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '18-los-alacranes.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "18-los-alacranes.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Fabric",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '191-los-amantes-otros-amantes',
-    title: 'Los Amantes Otros Amantes',
-    titleEs: 'Los Amantes Otros Amantes',
+    id: "191-los-amantes-otros-amantes",
+    title: "Los Amantes Otros Amantes",
+    titleEs: "Los Amantes Otros Amantes",
     year: 1943,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '191-los-amantes-otros-amantes.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "191-los-amantes-otros-amantes.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Mixed/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '54-los-ancestros-o-poema-dibujo',
-    title: 'Los Ancestros O Poema Dibujo',
-    titleEs: 'Los Ancestros O Poema Dibujo',
+    id: "54-los-ancestros-o-poema-dibujo",
+    title: "Los Ancestros O Poema Dibujo",
+    titleEs: "Los Ancestros O Poema Dibujo",
     year: 1963,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '54-los-ancestros-o-poema-dibujo.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "54-los-ancestros-o-poema-dibujo.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Pencil/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '111-los-gatos-pituso-y-zorrillo',
-    title: 'Los Gatos Pituso Y Zorrillo',
-    titleEs: 'Los Gatos Pituso Y Zorrillo',
+    id: "111-los-gatos-pituso-y-zorrillo",
+    title: "Los Gatos Pituso Y Zorrillo",
+    titleEs: "Los Gatos Pituso Y Zorrillo",
     year: 1956,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '111-los-gatos-pituso-y-zorrillo.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "111-los-gatos-pituso-y-zorrillo.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Pencil/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '55-los-hilos-del-destino',
-    title: 'Los Hilos Del Destino',
-    titleEs: 'Los Hilos Del Destino',
+    id: "55-los-hilos-del-destino",
+    title: "Los Hilos Del Destino",
+    titleEs: "Los Hilos Del Destino",
     year: 1958,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '55-los-hilos-del-destino.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "55-los-hilos-del-destino.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '198-los-reinos-combatientes-i',
-    title: 'Los Reinos Combatientes I',
-    titleEs: 'Los Reinos Combatientes I',
+    id: "198-los-reinos-combatientes-i",
+    title: "Los Reinos Combatientes I",
+    titleEs: "Los Reinos Combatientes I",
     year: 1956,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '198-los-reinos-combatientes-i.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "198-los-reinos-combatientes-i.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Ink/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '76-los-reyes-magos',
-    title: 'Los Reyes Magos',
-    titleEs: 'Los Reyes Magos',
+    id: "76-los-reyes-magos",
+    title: "Los Reyes Magos",
+    titleEs: "Los Reyes Magos",
     year: 1961,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '76-los-reyes-magos.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "76-los-reyes-magos.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '235-luz-emergente',
-    title: 'Luz Emergente',
-    titleEs: 'Luz Emergente',
+    id: "235-luz-emergente",
+    title: "Luz Emergente",
+    titleEs: "Luz Emergente",
     year: 1947,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '235-luz-emergente.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "235-luz-emergente.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil / Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '91-manicure',
-    title: 'Manicure',
-    titleEs: 'Manicure',
+    id: "91-manicure",
+    title: "Manicure",
+    titleEs: "Manicure",
     year: 1962,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '91-manicure.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "91-manicure.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Collage/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '51-mensaje-boceto',
-    title: 'Mensaje Boceto',
-    titleEs: 'Mensaje Boceto',
+    id: "51-mensaje-boceto",
+    title: "Mensaje Boceto",
+    titleEs: "Mensaje Boceto",
     year: 1935,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '51-mensaje-boceto.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "51-mensaje-boceto.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Pencil/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '159-microcosmos-o-determinismo',
-    title: 'Microcosmos O Determinismo',
-    titleEs: 'Microcosmos O Determinismo',
+    id: "159-microcosmos-o-determinismo",
+    title: "Microcosmos O Determinismo",
+    titleEs: "Microcosmos O Determinismo",
     year: 1956,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '159-microcosmos-o-determinismo.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "159-microcosmos-o-determinismo.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Tempera/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '151-mi-generalito-le-marquis-de-la-contre-croupe',
-    title: 'Mi Generalito Le Marquis De La Contre Croupe',
-    titleEs: 'Mi Generalito Le Marquis De La Contre Croupe',
+    id: "151-mi-generalito-le-marquis-de-la-contre-croupe",
+    title: "Mi Generalito Le Marquis De La Contre Croupe",
+    titleEs: "Mi Generalito Le Marquis De La Contre Croupe",
     year: 1959,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '151-mi-generalito-le-marquis-de-la-contre-croupe.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "151-mi-generalito-le-marquis-de-la-contre-croupe.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '233-mimetismo-mimesis',
-    title: 'Mimetismo Mimesis',
-    titleEs: 'Mimetismo Mimesis',
+    id: "233-mimetismo-mimesis",
+    title: "Mimetismo Mimesis",
+    titleEs: "Mimetismo Mimesis",
     year: 1959,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '233-mimetismo-mimesis.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "233-mimetismo-mimesis.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '95-modernidad',
-    title: 'Modernidad',
-    titleEs: 'Modernidad',
+    id: "95-modernidad",
+    title: "Modernidad",
+    titleEs: "Modernidad",
     year: 1960,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '95-modernidad.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "95-modernidad.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Plywood",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '167-monja-en-bicicleta-madre-superiora',
-    title: 'Monja En Bicicleta Madre Superiora',
-    titleEs: 'Monja En Bicicleta Madre Superiora',
+    id: "167-monja-en-bicicleta-madre-superiora",
+    title: "Monja En Bicicleta Madre Superiora",
+    titleEs: "Monja En Bicicleta Madre Superiora",
     year: 1936,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '167-monja-en-bicicleta-madre-superiora.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "167-monja-en-bicicleta-madre-superiora.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Pencil and WaterColor/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '87-monument-à-une-voyante-monumento-a-un-vidente',
-    title: 'Monument à Une Voyante Monumento A Un Vidente',
-    titleEs: 'Monument à Une Voyante Monumento A Un Vidente',
+    id: "87-monument-à-une-voyante-monumento-a-un-vidente",
+    title: "Monument à Une Voyante Monumento A Un Vidente",
+    titleEs: "Monument à Une Voyante Monumento A Un Vidente",
     year: 1961,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '87-monument-à-une-voyante-monumento-a-un-vidente.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "87-monument-à-une-voyante-monumento-a-un-vidente.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Pencil/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '172-mujer-con-esfera',
-    title: 'Mujer Con Esfera',
-    titleEs: 'Mujer Con Esfera',
+    id: "172-mujer-con-esfera",
+    title: "Mujer Con Esfera",
+    titleEs: "Mujer Con Esfera",
     year: 1935,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '172-mujer-con-esfera.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "172-mujer-con-esfera.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '20-mujer-en-rojo',
-    title: 'Mujer En Rojo',
-    titleEs: 'Mujer En Rojo',
+    id: "20-mujer-en-rojo",
+    title: "Mujer En Rojo",
+    titleEs: "Mujer En Rojo",
     year: 1957,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '20-mujer-en-rojo.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "20-mujer-en-rojo.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '232-mujer-lechuza-la-buhíta',
-    title: 'Mujer Lechuza La BuhíTa',
-    titleEs: 'Mujer Lechuza La BuhíTa',
+    id: "232-mujer-lechuza-la-buhíta",
+    title: "Mujer Lechuza La BuhíTa",
+    titleEs: "Mujer Lechuza La BuhíTa",
     year: 1948,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '232-mujer-lechuza-la-buhíta.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "232-mujer-lechuza-la-buhíta.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '171-mujer-lechuza-vestida',
-    title: 'Mujer Lechuza Vestida',
-    titleEs: 'Mujer Lechuza Vestida',
+    id: "171-mujer-lechuza-vestida",
+    title: "Mujer Lechuza Vestida",
+    titleEs: "Mujer Lechuza Vestida",
     year: 1960,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '171-mujer-lechuza-vestida.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "171-mujer-lechuza-vestida.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Pencil/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '140-mujer-lechuza-volando-plato',
-    title: 'Mujer Lechuza Volando Plato',
-    titleEs: 'Mujer Lechuza Volando Plato',
+    id: "140-mujer-lechuza-volando-plato",
+    title: "Mujer Lechuza Volando Plato",
+    titleEs: "Mujer Lechuza Volando Plato",
     year: 1957,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '140-mujer-lechuza-volando-plato.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "140-mujer-lechuza-volando-plato.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Mixed/Glass Coated with Gold Leaf and Leather",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '193-mujer-libélula',
-    title: 'Mujer LibéLula',
-    titleEs: 'Mujer LibéLula',
+    id: "193-mujer-libélula",
+    title: "Mujer LibéLula",
+    titleEs: "Mujer LibéLula",
     year: 1957,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '193-mujer-libélula.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "193-mujer-libélula.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Gouache/Ink",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '206-mujer-o-el-espíritu-de-la-noche',
-    title: 'Mujer O El EspíRitu De La Noche',
-    titleEs: 'Mujer O El EspíRitu De La Noche',
+    id: "206-mujer-o-el-espíritu-de-la-noche",
+    title: "Mujer O El EspíRitu De La Noche",
+    titleEs: "Mujer O El EspíRitu De La Noche",
     year: 1961,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '206-mujer-o-el-espíritu-de-la-noche.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "206-mujer-o-el-espíritu-de-la-noche.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '62-mujer-saliendo-del-psicoanalista-podría-ser-juliana',
-    title: 'Mujer Saliendo Del Psicoanalista PodríA Ser Juliana',
-    titleEs: 'Mujer Saliendo Del Psicoanalista PodríA Ser Juliana',
+    id: "62-mujer-saliendo-del-psicoanalista-podría-ser-juliana",
+    title: "Mujer Saliendo Del Psicoanalista PodríA Ser Juliana",
+    titleEs: "Mujer Saliendo Del Psicoanalista PodríA Ser Juliana",
     year: 1952,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '62-mujer-saliendo-del-psicoanalista-podría-ser-juliana.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "62-mujer-saliendo-del-psicoanalista-podría-ser-juliana.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Fabric",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '221-mujer-sedente',
-    title: 'Mujer Sedente',
-    titleEs: 'Mujer Sedente',
+    id: "221-mujer-sedente",
+    title: "Mujer Sedente",
+    titleEs: "Mujer Sedente",
     year: 1960,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '221-mujer-sedente.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "221-mujer-sedente.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Mixed/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '268-música-solar-música-de-la-luz-música-de-luz-la-sonata-de-la-luz',
-    title: 'MúSica Solar MúSica De La Luz MúSica De Luz La Sonata De La Luz',
-    titleEs: 'MúSica Solar MúSica De La Luz MúSica De Luz La Sonata De La Luz',
+    id: "268-música-solar-música-de-la-luz-música-de-luz-la-sonata-de-la-luz",
+    title: "MúSica Solar MúSica De La Luz MúSica De Luz La Sonata De La Luz",
+    titleEs: "MúSica Solar MúSica De La Luz MúSica De Luz La Sonata De La Luz",
     year: 1950,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '268-música-solar-música-de-la-luz-música-de-luz-la-sonata-de-la-luz.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath:
+      "268-música-solar-música-de-la-luz-música-de-luz-la-sonata-de-la-luz.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '63-nacer-de-nuevo',
-    title: 'Nacer De Nuevo',
-    titleEs: 'Nacer De Nuevo',
+    id: "63-nacer-de-nuevo",
+    title: "Nacer De Nuevo",
+    titleEs: "Nacer De Nuevo",
     year: 1955,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '63-nacer-de-nuevo.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "63-nacer-de-nuevo.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '82-nada-temáis-señora',
-    title: 'Nada TemáIs SeñOra',
-    titleEs: 'Nada TemáIs SeñOra',
+    id: "82-nada-temáis-señora",
+    title: "Nada TemáIs SeñOra",
+    titleEs: "Nada TemáIs SeñOra",
     year: 1960,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '82-nada-temáis-señora.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "82-nada-temáis-señora.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Collage",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '190-naturaleza-muerta-resucitando',
-    title: 'Naturaleza Muerta Resucitando',
-    titleEs: 'Naturaleza Muerta Resucitando',
+    id: "190-naturaleza-muerta-resucitando",
+    title: "Naturaleza Muerta Resucitando",
+    titleEs: "Naturaleza Muerta Resucitando",
     year: 1935,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '190-naturaleza-muerta-resucitando.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "190-naturaleza-muerta-resucitando.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Fabric",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '65-nave-astral-astronauta',
-    title: 'Nave Astral Astronauta',
-    titleEs: 'Nave Astral Astronauta',
+    id: "65-nave-astral-astronauta",
+    title: "Nave Astral Astronauta",
+    titleEs: "Nave Astral Astronauta",
     year: 1963,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '65-nave-astral-astronauta.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "65-nave-astral-astronauta.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '135-ne-me-parlez-jamais-de-cet-homme',
-    title: 'Ne Me Parlez Jamais De Cet Homme',
-    titleEs: 'Ne Me Parlez Jamais De Cet Homme',
+    id: "135-ne-me-parlez-jamais-de-cet-homme",
+    title: "Ne Me Parlez Jamais De Cet Homme",
+    titleEs: "Ne Me Parlez Jamais De Cet Homme",
     year: 1960,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '135-ne-me-parlez-jamais-de-cet-homme.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "135-ne-me-parlez-jamais-de-cet-homme.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Collage/Cardboard",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '189-niño-y-mariposa-niño-triste',
-    title: 'NiñO Y Mariposa NiñO Triste',
-    titleEs: 'NiñO Y Mariposa NiñO Triste',
+    id: "189-niño-y-mariposa-niño-triste",
+    title: "NiñO Y Mariposa NiñO Triste",
+    titleEs: "NiñO Y Mariposa NiñO Triste",
     year: 1957,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '189-niño-y-mariposa-niño-triste.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "189-niño-y-mariposa-niño-triste.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '264-no-hay-ningun-cadaver-en-el-armario',
-    title: 'No Hay Ningun Cadaver En El Armario',
-    titleEs: 'No Hay Ningun Cadaver En El Armario',
+    id: "264-no-hay-ningun-cadaver-en-el-armario",
+    title: "No Hay Ningun Cadaver En El Armario",
+    titleEs: "No Hay Ningun Cadaver En El Armario",
     year: 1961,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '264-no-hay-ningun-cadaver-en-el-armario.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "264-no-hay-ningun-cadaver-en-el-armario.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Pencil/Butter Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '93-ojos-sobre-la-mesa',
-    title: 'Ojos Sobre La Mesa',
-    titleEs: 'Ojos Sobre La Mesa',
+    id: "93-ojos-sobre-la-mesa",
+    title: "Ojos Sobre La Mesa",
+    titleEs: "Ojos Sobre La Mesa",
     year: 1956,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '93-ojos-sobre-la-mesa.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "93-ojos-sobre-la-mesa.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '254-otoño',
-    title: 'OtoñO',
-    titleEs: 'OtoñO',
+    id: "254-otoño",
+    title: "OtoñO",
+    titleEs: "OtoñO",
     year: 1935,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '254-otoño.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "254-otoño.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '17-paisaje-torre-centauro-torre-centauro-la-torre',
-    title: 'Paisaje Torre Centauro Torre Centauro La Torre',
-    titleEs: 'Paisaje Torre Centauro Torre Centauro La Torre',
+    id: "17-paisaje-torre-centauro-torre-centauro-la-torre",
+    title: "Paisaje Torre Centauro Torre Centauro La Torre",
+    titleEs: "Paisaje Torre Centauro Torre Centauro La Torre",
     year: 1944,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '17-paisaje-torre-centauro-torre-centauro-la-torre.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "17-paisaje-torre-centauro-torre-centauro-la-torre.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Mixed/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '6-pájaro-humano',
-    title: 'PáJaro Humano',
-    titleEs: 'PáJaro Humano',
+    id: "6-pájaro-humano",
+    title: "PáJaro Humano",
+    titleEs: "PáJaro Humano",
     year: 1943,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '6-pájaro-humano.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "6-pájaro-humano.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Pencil/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '253-paludismo-libélula',
-    title: 'Paludismo LibéLula',
-    titleEs: 'Paludismo LibéLula',
+    id: "253-paludismo-libélula",
+    title: "Paludismo LibéLula",
+    titleEs: "Paludismo LibéLula",
     year: 1943,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '253-paludismo-libélula.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "253-paludismo-libélula.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '114-papilla-estelar',
-    title: 'Papilla Estelar',
-    titleEs: 'Papilla Estelar',
+    id: "114-papilla-estelar",
+    title: "Papilla Estelar",
+    titleEs: "Papilla Estelar",
     year: 1947,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '114-papilla-estelar.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "114-papilla-estelar.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '227-paraíso-de-los-gatos',
-    title: 'ParaíSo De Los Gatos',
-    titleEs: 'ParaíSo De Los Gatos',
+    id: "227-paraíso-de-los-gatos",
+    title: "ParaíSo De Los Gatos",
+    titleEs: "ParaíSo De Los Gatos",
     year: 1958,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '227-paraíso-de-los-gatos.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "227-paraíso-de-los-gatos.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '32-perfil-de-mujer-con-sombrero-art-noveau',
-    title: 'Perfil De Mujer Con Sombrero Art Noveau',
-    titleEs: 'Perfil De Mujer Con Sombrero Art Noveau',
+    id: "32-perfil-de-mujer-con-sombrero-art-noveau",
+    title: "Perfil De Mujer Con Sombrero Art Noveau",
+    titleEs: "Perfil De Mujer Con Sombrero Art Noveau",
     year: 1955,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '32-perfil-de-mujer-con-sombrero-art-noveau.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "32-perfil-de-mujer-con-sombrero-art-noveau.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Ink/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '60-personaje',
-    title: 'Personaje',
-    titleEs: 'Personaje',
+    id: "60-personaje",
+    title: "Personaje",
+    titleEs: "Personaje",
     year: 1944,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '60-personaje.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "60-personaje.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Mixed/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '182-personaje',
-    title: 'Personaje',
-    titleEs: 'Personaje',
+    id: "182-personaje",
+    title: "Personaje",
+    titleEs: "Personaje",
     year: 1960,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '182-personaje.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "182-personaje.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '108-personaje',
-    title: 'Personaje',
-    titleEs: 'Personaje',
+    id: "108-personaje",
+    title: "Personaje",
+    titleEs: "Personaje",
     year: 1961,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '108-personaje.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "108-personaje.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Mixed/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '180-personaje',
-    title: 'Personaje',
-    titleEs: 'Personaje',
+    id: "180-personaje",
+    title: "Personaje",
+    titleEs: "Personaje",
     year: 1958,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '180-personaje.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "180-personaje.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil and Silver Leaf/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '154-personaje',
-    title: 'Personaje',
-    titleEs: 'Personaje',
+    id: "154-personaje",
+    title: "Personaje",
+    titleEs: "Personaje",
     year: 1961,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '154-personaje.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "154-personaje.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '142-personaje-alado',
-    title: 'Personaje Alado',
-    titleEs: 'Personaje Alado',
+    id: "142-personaje-alado",
+    title: "Personaje Alado",
+    titleEs: "Personaje Alado",
     year: 1959,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '142-personaje-alado.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "142-personaje-alado.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Pencil/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '186-personaje-astral-astronauta',
-    title: 'Personaje Astral Astronauta',
-    titleEs: 'Personaje Astral Astronauta',
+    id: "186-personaje-astral-astronauta",
+    title: "Personaje Astral Astronauta",
+    titleEs: "Personaje Astral Astronauta",
     year: 1959,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '186-personaje-astral-astronauta.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "186-personaje-astral-astronauta.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '174-personaje-en-lancha',
-    title: 'Personaje En Lancha',
-    titleEs: 'Personaje En Lancha',
+    id: "174-personaje-en-lancha",
+    title: "Personaje En Lancha",
+    titleEs: "Personaje En Lancha",
     year: 1961,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '174-personaje-en-lancha.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "174-personaje-en-lancha.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Cardboard",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '12-personaje-felino',
-    title: 'Personaje Felino',
-    titleEs: 'Personaje Felino',
+    id: "12-personaje-felino",
+    title: "Personaje Felino",
+    titleEs: "Personaje Felino",
     year: 1957,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '12-personaje-felino.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "12-personaje-felino.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Mixed/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '263-personaje-libélula-libélula-azul',
-    title: 'Personaje LibéLula LibéLula Azul',
-    titleEs: 'Personaje LibéLula LibéLula Azul',
+    id: "263-personaje-libélula-libélula-azul",
+    title: "Personaje LibéLula LibéLula Azul",
+    titleEs: "Personaje LibéLula LibéLula Azul",
     year: 1945,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '263-personaje-libélula-libélula-azul.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "263-personaje-libélula-libélula-azul.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Cardboard",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '14-personaje-pájaro',
-    title: 'Personaje PáJaro',
-    titleEs: 'Personaje PáJaro',
+    id: "14-personaje-pájaro",
+    title: "Personaje PáJaro",
+    titleEs: "Personaje PáJaro",
     year: 1955,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '14-personaje-pájaro.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "14-personaje-pájaro.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Pen and Sepia Ink/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '276-personajes-libélulas',
-    title: 'Personajes LibéLulas',
-    titleEs: 'Personajes LibéLulas',
+    id: "276-personajes-libélulas",
+    title: "Personajes LibéLulas",
+    titleEs: "Personajes LibéLulas",
     year: 1945,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '276-personajes-libélulas.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "276-personajes-libélulas.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '230-piloto-explorador',
-    title: 'Piloto Explorador',
-    titleEs: 'Piloto Explorador',
+    id: "230-piloto-explorador",
+    title: "Piloto Explorador",
+    titleEs: "Piloto Explorador",
     year: 1951,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '230-piloto-explorador.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "230-piloto-explorador.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Pencil/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '96-pintura',
-    title: 'Pintura',
-    titleEs: 'Pintura',
+    id: "96-pintura",
+    title: "Pintura",
+    titleEs: "Pintura",
     year: 1948,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '96-pintura.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "96-pintura.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Unknown",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '238-planta',
-    title: 'Planta',
-    titleEs: 'Planta',
+    id: "238-planta",
+    title: "Planta",
+    titleEs: "Planta",
     year: 1936,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '238-planta.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "238-planta.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil and Gold Leaf/Cardboard",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '187-planta-insumisa',
-    title: 'Planta Insumisa',
-    titleEs: 'Planta Insumisa',
+    id: "187-planta-insumisa",
+    title: "Planta Insumisa",
+    titleEs: "Planta Insumisa",
     year: 1960,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '187-planta-insumisa.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "187-planta-insumisa.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '217-premonición',
-    title: 'PremonicióN',
-    titleEs: 'PremonicióN',
+    id: "217-premonición",
+    title: "PremonicióN",
+    titleEs: "PremonicióN",
     year: 1961,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '217-premonición.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "217-premonición.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '156-presencia-inquietante',
-    title: 'Presencia Inquietante',
-    titleEs: 'Presencia Inquietante',
+    id: "156-presencia-inquietante",
+    title: "Presencia Inquietante",
+    titleEs: "Presencia Inquietante",
     year: 1953,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '156-presencia-inquietante.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "156-presencia-inquietante.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Fabric",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '38-primavera-printemps',
-    title: 'Primavera Printemps',
-    titleEs: 'Primavera Printemps',
+    id: "38-primavera-printemps",
+    title: "Primavera Printemps",
+    titleEs: "Primavera Printemps",
     year: 1959,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '38-primavera-printemps.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "38-primavera-printemps.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '68-pterodáctilo-animal-prehistórico',
-    title: 'PterodáCtilo Animal PrehistóRico',
-    titleEs: 'PterodáCtilo Animal PrehistóRico',
+    id: "68-pterodáctilo-animal-prehistórico",
+    title: "PterodáCtilo Animal PrehistóRico",
+    titleEs: "PterodáCtilo Animal PrehistóRico",
     year: 1944,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '68-pterodáctilo-animal-prehistórico.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "68-pterodáctilo-animal-prehistórico.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '213-puntos-y-rayas',
-    title: 'Puntos Y Rayas',
-    titleEs: 'Puntos Y Rayas',
+    id: "213-puntos-y-rayas",
+    title: "Puntos Y Rayas",
+    titleEs: "Puntos Y Rayas",
     year: 1947,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '213-puntos-y-rayas.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "213-puntos-y-rayas.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Ink/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '104-quiere-conocer-las-causas-de…',
-    title: 'Quiere Conocer Las Causas De…',
-    titleEs: 'Quiere Conocer Las Causas De…',
+    id: "104-quiere-conocer-las-causas-de…",
+    title: "Quiere Conocer Las Causas De…",
+    titleEs: "Quiere Conocer Las Causas De…",
     year: 1949,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '104-quiere-conocer-las-causas-de….jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "104-quiere-conocer-las-causas-de….jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Pencil/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '248-ramo-floral-con-pájaros',
-    title: 'Ramo Floral Con PáJaros',
-    titleEs: 'Ramo Floral Con PáJaros',
+    id: "248-ramo-floral-con-pájaros",
+    title: "Ramo Floral Con PáJaros",
+    titleEs: "Ramo Floral Con PáJaros",
     year: 1935,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '248-ramo-floral-con-pájaros.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "248-ramo-floral-con-pájaros.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil and gold leaf/Wood",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '97-recuerdos-de-la-valkiria-hiedra-aprisionada-hiedra-salvaje',
-    title: 'Recuerdos De La Valkiria Hiedra Aprisionada Hiedra Salvaje',
-    titleEs: 'Recuerdos De La Valkiria Hiedra Aprisionada Hiedra Salvaje',
+    id: "97-recuerdos-de-la-valkiria-hiedra-aprisionada-hiedra-salvaje",
+    title: "Recuerdos De La Valkiria Hiedra Aprisionada Hiedra Salvaje",
+    titleEs: "Recuerdos De La Valkiria Hiedra Aprisionada Hiedra Salvaje",
     year: 1960,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '97-recuerdos-de-la-valkiria-hiedra-aprisionada-hiedra-salvaje.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath:
+      "97-recuerdos-de-la-valkiria-hiedra-aprisionada-hiedra-salvaje.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Plywood",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '131-reflejo-lunar',
-    title: 'Reflejo Lunar',
-    titleEs: 'Reflejo Lunar',
+    id: "131-reflejo-lunar",
+    title: "Reflejo Lunar",
+    titleEs: "Reflejo Lunar",
     year: 1938,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '131-reflejo-lunar.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "131-reflejo-lunar.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Mixed/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '22-retrato-de-esteban-francés',
-    title: 'Retrato De Esteban FrancéS',
-    titleEs: 'Retrato De Esteban FrancéS',
+    id: "22-retrato-de-esteban-francés",
+    title: "Retrato De Esteban FrancéS",
+    titleEs: "Retrato De Esteban FrancéS",
     year: 1957,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '22-retrato-de-esteban-francés.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "22-retrato-de-esteban-francés.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Pencil/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '247-retrato-de-juan-martín',
-    title: 'Retrato De Juan MartíN',
-    titleEs: 'Retrato De Juan MartíN',
+    id: "247-retrato-de-juan-martín",
+    title: "Retrato De Juan MartíN",
+    titleEs: "Retrato De Juan MartíN",
     year: 1943,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '247-retrato-de-juan-martín.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "247-retrato-de-juan-martín.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Fabric/Cracks",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '220-retrato-de-la-señora-ángeles-gaos-de-camacho',
-    title: 'Retrato De La SeñOra áNgeles Gaos De Camacho',
-    titleEs: 'Retrato De La SeñOra áNgeles Gaos De Camacho',
+    id: "220-retrato-de-la-señora-ángeles-gaos-de-camacho",
+    title: "Retrato De La SeñOra áNgeles Gaos De Camacho",
+    titleEs: "Retrato De La SeñOra áNgeles Gaos De Camacho",
     year: 1926,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '220-retrato-de-la-señora-ángeles-gaos-de-camacho.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "220-retrato-de-la-señora-ángeles-gaos-de-camacho.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '56-retrato-de-las-hijas-de-los-señores-arnús-retrato-de-pilar-y-clara',
-    title: 'Retrato De Las Hijas De Los SeñOres ArnúS Retrato De Pilar Y Clara',
-    titleEs: 'Retrato De Las Hijas De Los SeñOres ArnúS Retrato De Pilar Y Clara',
+    id: "56-retrato-de-las-hijas-de-los-señores-arnús-retrato-de-pilar-y-clara",
+    title: "Retrato De Las Hijas De Los SeñOres ArnúS Retrato De Pilar Y Clara",
+    titleEs:
+      "Retrato De Las Hijas De Los SeñOres ArnúS Retrato De Pilar Y Clara",
     year: 1950,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '56-retrato-de-las-hijas-de-los-señores-arnús-retrato-de-pilar-y-clara.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath:
+      "56-retrato-de-las-hijas-de-los-señores-arnús-retrato-de-pilar-y-clara.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '278-retrato-del-barón-angelo-milfastos-de-niño',
-    title: 'Retrato Del BaróN Angelo Milfastos De NiñO',
-    titleEs: 'Retrato Del BaróN Angelo Milfastos De NiñO',
+    id: "278-retrato-del-barón-angelo-milfastos-de-niño",
+    title: "Retrato Del BaróN Angelo Milfastos De NiñO",
+    titleEs: "Retrato Del BaróN Angelo Milfastos De NiñO",
     year: 1957,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '278-retrato-del-barón-angelo-milfastos-de-niño.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "278-retrato-del-barón-angelo-milfastos-de-niño.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Mixed/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '136-retrato-del-doctor-ignacio-chávez',
-    title: 'Retrato Del Doctor Ignacio CháVez',
-    titleEs: 'Retrato Del Doctor Ignacio CháVez',
+    id: "136-retrato-del-doctor-ignacio-chávez",
+    title: "Retrato Del Doctor Ignacio CháVez",
+    titleEs: "Retrato Del Doctor Ignacio CháVez",
     year: 1952,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '136-retrato-del-doctor-ignacio-chávez.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "136-retrato-del-doctor-ignacio-chávez.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '160-retrato-de-los-niños-andrea-y-lorenzo-villaseñor',
-    title: 'Retrato De Los NiñOs Andrea Y Lorenzo VillaseñOr',
-    titleEs: 'Retrato De Los NiñOs Andrea Y Lorenzo VillaseñOr',
+    id: "160-retrato-de-los-niños-andrea-y-lorenzo-villaseñor",
+    title: "Retrato De Los NiñOs Andrea Y Lorenzo VillaseñOr",
+    titleEs: "Retrato De Los NiñOs Andrea Y Lorenzo VillaseñOr",
     year: 1957,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '160-retrato-de-los-niños-andrea-y-lorenzo-villaseñor.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "160-retrato-de-los-niños-andrea-y-lorenzo-villaseñor.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '226-retrato-de-walter-gruen',
-    title: 'Retrato De Walter Gruen',
-    titleEs: 'Retrato De Walter Gruen',
+    id: "226-retrato-de-walter-gruen",
+    title: "Retrato De Walter Gruen",
+    titleEs: "Retrato De Walter Gruen",
     year: 1956,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '226-retrato-de-walter-gruen.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "226-retrato-de-walter-gruen.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Ink/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '214-revelación-o-el-relojero',
-    title: 'RevelacióN O El Relojero',
-    titleEs: 'RevelacióN O El Relojero',
+    id: "214-revelación-o-el-relojero",
+    title: "RevelacióN O El Relojero",
+    titleEs: "RevelacióN O El Relojero",
     year: 1954,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '214-revelación-o-el-relojero.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "214-revelación-o-el-relojero.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '143-ritos-extraños',
-    title: 'Ritos ExtrañOs',
-    titleEs: 'Ritos ExtrañOs',
+    id: "143-ritos-extraños",
+    title: "Ritos ExtrañOs",
+    titleEs: "Ritos ExtrañOs",
     year: 1955,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '143-ritos-extraños.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "143-ritos-extraños.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '267-robo-de-sustancia',
-    title: 'Robo De Sustancia',
-    titleEs: 'Robo De Sustancia',
+    id: "267-robo-de-sustancia",
+    title: "Robo De Sustancia",
+    titleEs: "Robo De Sustancia",
     year: 1959,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '267-robo-de-sustancia.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "267-robo-de-sustancia.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '45-rompiendo-el-círculo-vicioso',
-    title: 'Rompiendo El CíRculo Vicioso',
-    titleEs: 'Rompiendo El CíRculo Vicioso',
+    id: "45-rompiendo-el-círculo-vicioso",
+    title: "Rompiendo El CíRculo Vicioso",
+    titleEs: "Rompiendo El CíRculo Vicioso",
     year: 1955,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '45-rompiendo-el-círculo-vicioso.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "45-rompiendo-el-círculo-vicioso.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Mixed/Cardboard",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '200-rostro',
-    title: 'Rostro',
-    titleEs: 'Rostro',
+    id: "200-rostro",
+    title: "Rostro",
+    titleEs: "Rostro",
     year: 1962,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '200-rostro.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "200-rostro.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Pencil/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '2-roulotte-interior-en-marcha',
-    title: 'Roulotte Interior En Marcha',
-    titleEs: 'Roulotte Interior En Marcha',
+    id: "2-roulotte-interior-en-marcha",
+    title: "Roulotte Interior En Marcha",
+    titleEs: "Roulotte Interior En Marcha",
     year: 1955,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '2-roulotte-interior-en-marcha.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "2-roulotte-interior-en-marcha.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '27-ruedas-metafísicas-bicicletas-en-café',
-    title: 'Ruedas MetafíSicas Bicicletas En Café',
-    titleEs: 'Ruedas MetafíSicas Bicicletas En Café',
+    id: "27-ruedas-metafísicas-bicicletas-en-café",
+    title: "Ruedas MetafíSicas Bicicletas En Café",
+    titleEs: "Ruedas MetafíSicas Bicicletas En Café",
     year: 1955,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '27-ruedas-metafísicas-bicicletas-en-café.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "27-ruedas-metafísicas-bicicletas-en-café.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '272-ruptura',
-    title: 'Ruptura',
-    titleEs: 'Ruptura',
+    id: "272-ruptura",
+    title: "Ruptura",
+    titleEs: "Ruptura",
     year: 1944,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '272-ruptura.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "272-ruptura.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '112-sea-usted-breve',
-    title: 'Sea Usted Breve',
-    titleEs: 'Sea Usted Breve',
+    id: "112-sea-usted-breve",
+    title: "Sea Usted Breve",
+    titleEs: "Sea Usted Breve",
     year: 1955,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '112-sea-usted-breve.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "112-sea-usted-breve.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '179-ser-andrógino',
-    title: 'Ser AndróGino',
-    titleEs: 'Ser AndróGino',
+    id: "179-ser-andrógino",
+    title: "Ser AndróGino",
+    titleEs: "Ser AndróGino",
     year: 1958,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '179-ser-andrógino.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "179-ser-andrógino.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Cardboard",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '270-simpatía-la-rabia-del-gato',
-    title: 'SimpatíA La Rabia Del Gato',
-    titleEs: 'SimpatíA La Rabia Del Gato',
+    id: "270-simpatía-la-rabia-del-gato",
+    title: "SimpatíA La Rabia Del Gato",
+    titleEs: "SimpatíA La Rabia Del Gato",
     year: 1957,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '270-simpatía-la-rabia-del-gato.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "270-simpatía-la-rabia-del-gato.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '99-sin-titulo-a-sans-titre',
-    title: 'Sin Titulo A Sans Titre',
-    titleEs: 'Sin Titulo A Sans Titre',
+    id: "99-sin-titulo-a-sans-titre",
+    title: "Sin Titulo A Sans Titre",
+    titleEs: "Sin Titulo A Sans Titre",
     year: 1955,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '99-sin-titulo-a-sans-titre.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "99-sin-titulo-a-sans-titre.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Ink and Gouache/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '89-sin-titulo-sans-titre',
-    title: 'Sin Titulo Sans Titre',
-    titleEs: 'Sin Titulo Sans Titre',
+    id: "89-sin-titulo-sans-titre",
+    title: "Sin Titulo Sans Titre",
+    titleEs: "Sin Titulo Sans Titre",
     year: 1938,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '89-sin-titulo-sans-titre.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "89-sin-titulo-sans-titre.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Ink/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '41-sorpresa-eléctrica',
-    title: 'Sorpresa EléCtrica',
-    titleEs: 'Sorpresa EléCtrica',
+    id: "41-sorpresa-eléctrica",
+    title: "Sorpresa EléCtrica",
+    titleEs: "Sorpresa EléCtrica",
     year: 1938,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '41-sorpresa-eléctrica.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "41-sorpresa-eléctrica.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Collage/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '178-tailleur-pour-dames',
-    title: 'Tailleur Pour Dames',
-    titleEs: 'Tailleur Pour Dames',
+    id: "178-tailleur-pour-dames",
+    title: "Tailleur Pour Dames",
+    titleEs: "Tailleur Pour Dames",
     year: 1962,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '178-tailleur-pour-dames.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "178-tailleur-pour-dames.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '42-tauro',
-    title: 'Tauro',
-    titleEs: 'Tauro',
+    id: "42-tauro",
+    title: "Tauro",
+    titleEs: "Tauro",
     year: 1952,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '42-tauro.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "42-tauro.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Mixed/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '246-taxi-acuático-locomoción-acuática-locomoción-fluvial',
-    title: 'Taxi AcuáTico LocomocióN AcuáTica LocomocióN Fluvial',
-    titleEs: 'Taxi AcuáTico LocomocióN AcuáTica LocomocióN Fluvial',
+    id: "246-taxi-acuático-locomoción-acuática-locomoción-fluvial",
+    title: "Taxi AcuáTico LocomocióN AcuáTica LocomocióN Fluvial",
+    titleEs: "Taxi AcuáTico LocomocióN AcuáTica LocomocióN Fluvial",
     year: 1962,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '246-taxi-acuático-locomoción-acuática-locomoción-fluvial.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "246-taxi-acuático-locomoción-acuática-locomoción-fluvial.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Mixed/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '265-tejedora',
-    title: 'Tejedora',
-    titleEs: 'Tejedora',
+    id: "265-tejedora",
+    title: "Tejedora",
+    titleEs: "Tejedora",
     year: 1962,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '265-tejedora.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "265-tejedora.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Mixed/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '216-tejido-espacio-tiempo-espacio-tiempo-tejiendo',
-    title: 'Tejido Espacio Tiempo Espacio Tiempo Tejiendo',
-    titleEs: 'Tejido Espacio Tiempo Espacio Tiempo Tejiendo',
+    id: "216-tejido-espacio-tiempo-espacio-tiempo-tejiendo",
+    title: "Tejido Espacio Tiempo Espacio Tiempo Tejiendo",
+    titleEs: "Tejido Espacio Tiempo Espacio Tiempo Tejiendo",
     year: 1956,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '216-tejido-espacio-tiempo-espacio-tiempo-tejiendo.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "216-tejido-espacio-tiempo-espacio-tiempo-tejiendo.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '250-tiforal',
-    title: 'Tiforal',
-    titleEs: 'Tiforal',
+    id: "250-tiforal",
+    title: "Tiforal",
+    titleEs: "Tiforal",
     year: 1954,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '250-tiforal.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "250-tiforal.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '98-títeres-vegetales-marionetas-vegetales',
-    title: 'TíTeres Vegetales Marionetas Vegetales',
-    titleEs: 'TíTeres Vegetales Marionetas Vegetales',
+    id: "98-títeres-vegetales-marionetas-vegetales",
+    title: "TíTeres Vegetales Marionetas Vegetales",
+    titleEs: "TíTeres Vegetales Marionetas Vegetales",
     year: 1947,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '98-títeres-vegetales-marionetas-vegetales.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "98-títeres-vegetales-marionetas-vegetales.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil and Paraffin/Plywood",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '194-tránsito-en-espiral',
-    title: 'TráNsito En Espiral',
-    titleEs: 'TráNsito En Espiral',
+    id: "194-tránsito-en-espiral",
+    title: "TráNsito En Espiral",
+    titleEs: "TráNsito En Espiral",
     year: 1938,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '194-tránsito-en-espiral.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "194-tránsito-en-espiral.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '21-transmisión-ciclista-con-cristales',
-    title: 'TransmisióN Ciclista Con Cristales',
-    titleEs: 'TransmisióN Ciclista Con Cristales',
+    id: "21-transmisión-ciclista-con-cristales",
+    title: "TransmisióN Ciclista Con Cristales",
+    titleEs: "TransmisióN Ciclista Con Cristales",
     year: 1962,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '21-transmisión-ciclista-con-cristales.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "21-transmisión-ciclista-con-cristales.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '271-trasmundo',
-    title: 'Trasmundo',
-    titleEs: 'Trasmundo',
+    id: "271-trasmundo",
+    title: "Trasmundo",
+    titleEs: "Trasmundo",
     year: 1943,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '271-trasmundo.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "271-trasmundo.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '202-tres-destinos',
-    title: 'Tres Destinos',
-    titleEs: 'Tres Destinos',
+    id: "202-tres-destinos",
+    title: "Tres Destinos",
+    titleEs: "Tres Destinos",
     year: 1955,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '202-tres-destinos.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "202-tres-destinos.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '128-una-reunion-tranquila',
-    title: 'Una Reunion Tranquila',
-    titleEs: 'Una Reunion Tranquila',
+    id: "128-una-reunion-tranquila",
+    title: "Una Reunion Tranquila",
+    titleEs: "Una Reunion Tranquila",
     year: 1956,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '128-una-reunion-tranquila.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "128-una-reunion-tranquila.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Collage/Cardboard",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '133-vagabundo',
-    title: 'Vagabundo',
-    titleEs: 'Vagabundo',
+    id: "133-vagabundo",
+    title: "Vagabundo",
+    titleEs: "Vagabundo",
     year: 1957,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '133-vagabundo.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "133-vagabundo.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '66-valle-de-la-luna',
-    title: 'Valle De La Luna',
-    titleEs: 'Valle De La Luna',
+    id: "66-valle-de-la-luna",
+    title: "Valle De La Luna",
+    titleEs: "Valle De La Luna",
     year: 1957,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '66-valle-de-la-luna.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "66-valle-de-la-luna.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '162-vampiro',
-    title: 'Vampiro',
-    titleEs: 'Vampiro',
+    id: "162-vampiro",
+    title: "Vampiro",
+    titleEs: "Vampiro",
     year: 1950,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '162-vampiro.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "162-vampiro.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Cardboard",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '239-vampiros-vegetarianos',
-    title: 'Vampiros Vegetarianos',
-    titleEs: 'Vampiros Vegetarianos',
+    id: "239-vampiros-vegetarianos",
+    title: "Vampiros Vegetarianos",
+    titleEs: "Vampiros Vegetarianos",
     year: 1961,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '239-vampiros-vegetarianos.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "239-vampiros-vegetarianos.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Fabric",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '281-vejez',
-    title: 'Vejez',
-    titleEs: 'Vejez',
+    id: "281-vejez",
+    title: "Vejez",
+    titleEs: "Vejez",
     year: 1962,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '281-vejez.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "281-vejez.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '4-verano-été',
-    title: 'Verano éTé',
-    titleEs: 'Verano éTé',
+    id: "4-verano-été",
+    title: "Verano éTé",
+    titleEs: "Verano éTé",
     year: 1948,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '4-verano-été.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "4-verano-été.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '59-viaje-de-lady',
-    title: 'Viaje De Lady',
-    titleEs: 'Viaje De Lady',
+    id: "59-viaje-de-lady",
+    title: "Viaje De Lady",
+    titleEs: "Viaje De Lady",
     year: 1944,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '59-viaje-de-lady.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "59-viaje-de-lady.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Unknown",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '256-vida-extraña',
-    title: 'Vida ExtrañA',
-    titleEs: 'Vida ExtrañA',
+    id: "256-vida-extraña",
+    title: "Vida ExtrañA",
+    titleEs: "Vida ExtrañA",
     year: 1950,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '256-vida-extraña.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "256-vida-extraña.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '15-vigor',
-    title: 'Vigor',
-    titleEs: 'Vigor',
+    id: "15-vigor",
+    title: "Vigor",
+    titleEs: "Vigor",
     year: 1945,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '15-vigor.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "15-vigor.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Gouache/Cardstock",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '245-visita-al-cirujano-plástico',
-    title: 'Visita Al Cirujano PláStico',
-    titleEs: 'Visita Al Cirujano PláStico',
+    id: "245-visita-al-cirujano-plástico",
+    title: "Visita Al Cirujano PláStico",
+    titleEs: "Visita Al Cirujano PláStico",
     year: 1947,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '245-visita-al-cirujano-plástico.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "245-visita-al-cirujano-plástico.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '129-visita-al-pasado',
-    title: 'Visita Al Pasado',
-    titleEs: 'Visita Al Pasado',
+    id: "129-visita-al-pasado",
+    title: "Visita Al Pasado",
+    titleEs: "Visita Al Pasado",
     year: 1960,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '129-visita-al-pasado.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "129-visita-al-pasado.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Pencil and Color Powder/Paper",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '109-visita-inesperada-el-visitante',
-    title: 'Visita Inesperada El Visitante',
-    titleEs: 'Visita Inesperada El Visitante',
+    id: "109-visita-inesperada-el-visitante",
+    title: "Visita Inesperada El Visitante",
+    titleEs: "Visita Inesperada El Visitante",
     year: 1957,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '109-visita-inesperada-el-visitante.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "109-visita-inesperada-el-visitante.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '262-vuelo-mágico-zanfonía',
-    title: 'Vuelo MáGico ZanfoníA',
-    titleEs: 'Vuelo MáGico ZanfoníA',
+    id: "262-vuelo-mágico-zanfonía",
+    title: "Vuelo MáGico ZanfoníA",
+    titleEs: "Vuelo MáGico ZanfoníA",
     year: 1958,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '262-vuelo-mágico-zanfonía.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "262-vuelo-mágico-zanfonía.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
+    medium: "Oil/Inlaid Mother of Pearl/Masonite",
+    description: "",
+    descriptionEs: "",
   },
   {
-    id: '207-woman-and-bird',
-    title: 'Woman And Bird',
-    titleEs: 'Woman And Bird',
+    id: "207-woman-and-bird",
+    title: "Woman And Bird",
+    titleEs: "Woman And Bird",
     year: 1956,
-    type: 'painting', // TODO: Update with correct type based on medium
-    imagePath: '207-woman-and-bird.jpg',
+    type: "painting", // TODO: Update with correct type based on medium
+    imagePath: "207-woman-and-bird.jpg",
     tags: [], // TODO: Add relevant tags
-    medium: 'Unknown',
-    description: '',
-    descriptionEs: ''
-  }
+    medium: "Mixed and Gold Leaf/Crystal",
+    description: "",
+    descriptionEs: "",
+  },
 ];
