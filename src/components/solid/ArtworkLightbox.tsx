@@ -84,7 +84,7 @@ export default function ArtworkLightbox(props: Props) {
             {/* Image Section */}
             <div class="relative bg-base-300 flex items-center justify-center p-8" style="min-height: 500px;">
               <img
-                src={`/src/assets/work/${props.artwork?.imagePath}`}
+                src={`${import.meta.env.BASE_URL}/work/${props.artwork?.imagePath}`}
                 alt={title()}
                 class="max-w-full max-h-[600px] object-contain"
               />

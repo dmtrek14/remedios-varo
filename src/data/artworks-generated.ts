@@ -3007,7 +3007,7 @@ export const generatedArtworks: Artwork[] = [
     id: "27-ruedas-metafísicas-bicicletas-en-café",
     title: "Ruedas Metafísicas (Bicicletas En Café)",
     titleEs: "Ruedas Metafísicas (Bicicletas En Café)",
-    year: 19544,
+    year: 1954,
     type: "painting",
     imagePath: "27-ruedas-metafísicas-bicicletas-en-café.jpg",
     tags: ["gouache", "cardboard"],

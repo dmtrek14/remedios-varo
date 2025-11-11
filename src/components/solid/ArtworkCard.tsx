@@ -11,8 +11,9 @@ export default function ArtworkCard(props: Props) {
   const title = () => locale() === 'es' && props.artwork.titleEs ? props.artwork.titleEs : props.artwork.title;
   const description = () => locale() === 'es' && props.artwork.descriptionEs ? props.artwork.descriptionEs : props.artwork.description;
 
-  // Build image path
-  const imageSrc = () => `/src/assets/work/${props.artwork.imagePath}`;
+  // Build image path - now served from public folder
+  // Use base URL for GitHub Pages compatibility
+  const imageSrc = () => `${import.meta.env.BASE_URL}/work/${props.artwork.imagePath}`;
 
   return (
     <div

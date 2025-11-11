@@ -11,7 +11,7 @@ export interface Artwork {
     | "collage"
     | "other"
     | "furniture painting";
-  imagePath: string; // Path relative to src/assets/work/
+  imagePath: string; // Path relative to public/work/
   tags: string[];
   description?: string;
   descriptionEs?: string;

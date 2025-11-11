@@ -1,5 +1,4 @@
 ---
-import { Image } from 'astro:assets';
 import type { Artwork } from '@/data/artworks';
 
 interface Props {
@@ -11,10 +10,9 @@ const { artwork, locale = 'es' } = Astro.props;
 const title = locale === 'es' && artwork.titleEs ? artwork.titleEs : artwork.title;
 const description = locale === 'es' && artwork.descriptionEs ? artwork.descriptionEs : artwork.description;
 
-// Import the image dynamically with eager loading
-const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/work/*.{jpeg,jpg,png,gif,webp}', { eager: true });
-const imagePath = `/src/assets/work/${artwork.imagePath}`;
-const imageData = images[imagePath];
+// Images are now served from public folder
+// Use base URL for GitHub Pages compatibility
+const imagePath = `${import.meta.env.BASE_URL}/work/${artwork.imagePath}`;
 ---
 
 <div
@@ -22,20 +20,12 @@ const imageData = images[imagePath];
   data-artwork-id={artwork.id}
 >
   <figure class="relative overflow-hidden" style="height: 300px;">
-    {imageData ? (
-      <Image
-        src={imageData.default}
-        alt={title}
-        class="object-cover w-full h-full transition-transform duration-300 hover:scale-105"
-        loading="lazy"
-        widths={[300, 400, 500]}
-        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-      />
-    ) : (
-      <div class="w-full h-full bg-base-300 flex items-center justify-center">
-        <span class="text-base-content/50">Image not found: {artwork.imagePath}</span>
-      </div>
-    )}
+    <img
+      src={imagePath}
+      alt={title}
+      class="object-cover w-full h-full transition-transform duration-300 hover:scale-105"
+      loading="lazy"
+    />
 
     <!-- Hover overlay with quick info -->
     <div class="absolute inset-0 bg-black/0 hover:bg-black/60 transition-all duration-300 flex items-center justify-center opacity-0 hover:opacity-100">
