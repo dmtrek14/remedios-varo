@@ -256,24 +256,36 @@ export const translations = {
             "Remedios loved birds and cats. In Mexico, she fed stray cats and neighborhood birds. She featured both cats and birds in her surrealist paintings, treating them as mystical companions in her artistic world.",
         },
         {
-          title: "Scientific Background",
+          title:
+            "Discovered her husband was in a concentration camp by luck (circa 1940)",
           description:
-            "Her father was a hydraulic engineer who encouraged her artistic talents from a young age. This technical background influenced the precise, mechanical elements often seen in her work.",
+            "When she went to see a film with a friend, a short documentary was shown before the film about French concentration camps. As she watched that documentary, she reconized Gerardo Lizzaga, her husband as one of the camp internees. She and her friends worked to free him and were able to. (Kaplan, 70)",
         },
         {
-          title: "Alchemy and Mysticism",
+          title:
+            "Narrowly avoided falling prey to a serial killer when trying to secure passage to Mexico (circa 1941)",
           description:
-            "She was deeply interested in alchemy, tarot, dream analysis, and Eastern philosophy, which became central themes in her paintings.",
+            'She and Benjamin Péret narrowly avoided a serial killer when trying to get out of France: "One story has Varo and Péret arranging to travel via fishing boat by giving money to a black-market operator through an intermediary, a questionable young man who had approached them as they wandered around the docks. Although he left them stranded, running off with their precious cash, the thief may have saved their lives. For, as the newspapers soon would report, the black-market operator to whom the money was to have been delivered turned out to be a psychopathic killer who had murdered the previous refugees he had offered to help - a charge verified by the mute testimony of the twelve bodies found buried in his backyard." (Kaplan, 82)',
         },
         {
-          title: "Commercial Work",
+          title: "Light fraud to survive in Paris",
           description:
-            "She worked as a commercial illustrator for Bayer pharmaceutical company, creating advertisements for pharmaceuticals.",
+            "Allegedly made and sold paintings faked in the the style of Giogrio de Chirico to make some money when she and Péret were poor.",
         },
         {
-          title: "Self-Taught Techniques",
+          title: "She and Leonora Carrington had a sense of whimsy",
           description:
-            "She developed unique painting techniques, including creating her own recipes for materials and grounds, approaching painting with an almost alchemical methodology.",
+            "Varo liked to write letters to strangers and give them 'challenges' or other suggestions for an adventure. Varo and Carrington liked to concoct 'recipes' promising 'magical' results such as scaring away inopportune dreams or how to dream of being the king of England.",
+        },
+        {
+          title: "She loved to sew and was a skilled costume designer",
+          description:
+            "She and Carrington worked on costumes for a production of Jean Girauodoux's Madwoman of Chaillot. They also made hats and headdresses for a production of Pedro Calderon de la Barca's Gran Teatro del Mundo. She worked for Marc Chagall on costume designs for Léonid Massine's balley Aleko which premiered in Mexico City in September 1942 (Kaplan, 98). Because of her interest in costuming, \"her sewing machine was accorded a position of honor at the 1983 retrospective of her work in Mexico City.\" (Kaplan, 101)",
+        },
+        {
+          title: "Frida Kahlo was probably not a fan",
+          description:
+            "Frida Kahlo wasn't a fan of the European Surrealist refugees in Mexico, having said, \"They make me vomit. They are so damned 'intellectual' and rotten that I can't stand them anymore...I'd rather sit on the floor in the market of Toluca and sell tortillas, than to have anything to do with those 'artistic' bitches of Paris.\" (Kaplan, 87-88)",
         },
       ],
     },
@@ -589,29 +601,41 @@ export const translations = {
       pageTitle: "Realidades Interesantes",
       items: [
         {
-          title: "Amante de los Gatos",
+          title: "Amante de los gatos y los aves",
           description:
-            "Remedios era una devota amante de los gatos y a menudo presentaba a sus queridos gatos en sus pinturas surrealistas, tratándolos como compañeros místicos en su mundo artístico.",
+            "Remedios era una devota amante de los gatos y los aves. En México, comió gatos y aves. Presentaba gatos y aves en sus pinturas surrealistas, tratándolos como compañeros místicos en su mundo artístico.",
         },
         {
-          title: "Formación Científica",
+          title:
+            "Descubrió que su marido estaba en un campo de concentración por suerte (circa 1940)",
           description:
-            "Su padre era ingeniero hidráulico que fomentó sus talentos artísticos desde una edad temprana. Esta formación técnica influyó en los elementos precisos y mecánicos que a menudo se ven en su obra.",
+            "Cuando fue a ver un película con un amigo, se mostró un breve documentario antes del película sobre campos de concentración franceses. Mientras miraba este documentario, reconoció a Gerardo Lizárraga, su marido como uno de los internos del campo de concentración. Ellos trabajaron para liberarlo y fueron capaz de hacerlo. (Kaplan, 70)",
         },
         {
-          title: "Alquimia y Misticismo",
+          title:
+            "Estuvo a punto de caer víctime de un asesino cuando trataba de obtener pasaje a México (circa 1941)",
           description:
-            "Estaba profundamente interesada en la alquimia, el tarot, el análisis de los sueños y la filosofía oriental, que se convirtieron en temas centrales en sus pinturas.",
+            "Varo y Benjamin Péret escaparon un asesino en serie cuando trataban salier de Francia. ",
         },
         {
-          title: "Trabajo Comercial",
+          title: "Prepetró un pequeño fraude para sobrevivir en París",
           description:
-            "Antes de dedicarse completamente al arte, trabajó como ilustradora comercial para la empresa farmacéutica Bayer, creando anuncios de insecticidas.",
+            "Supuestamente, ella pintaba y vendía pinturas falsificadas al estilo de Giorgio de Chirico para ganar dinero cuando ella y Péret eran pobres.",
         },
         {
-          title: "Técnicas Autodidactas",
+          title: "Ella y Leonora Carrington tenían un sentido de humor",
           description:
-            "Desarrolló técnicas de pintura únicas, incluida la creación de sus propias recetas para materiales y fondos, abordando la pintura con una metodología casi alquímica.",
+            "Varo le gustaba escribir cartas a extraños y darles desafíos o otras sugerincias para una aventura. Varo y Carrington tambien les gustaban crear recetas que prometían resultados mágicos como ahuyentar los sueños malos o como soñar de ser el rey de Inglaterra.",
+        },
+        {
+          title:
+            "Ella le gustaba coser y era una buena diseñadora de costumbres",
+          description: "",
+        },
+        {
+          title: "Frida Kahlo probablemente no era una aficionada",
+          description:
+            "Frida Kahlo no era aficionada por los refugiados europeos surrealistos en México y decía, \"They make me vomit. They are so damned 'intellectual' and rotten that I can't stand them anymore...I'd rather sit on the floor in the market of Toluca and sell tortillas, than to have anything to do with those 'artistic' bitches of Paris.\" (Kaplan, 87-88)",
         },
       ],
     },
