@@ -428,7 +428,7 @@ export const translations = {
           description: "",
         },
         "varo-life-1941-toreador.png": {
-          title: "Remedios Varo en en costumbre de toreador",
+          title: "Remedios Varo en en traje de toreador",
           year: "1941",
           description: "",
         },

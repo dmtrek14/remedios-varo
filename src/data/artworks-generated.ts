@@ -2152,7 +2152,7 @@ export const generatedArtworks: Artwork[] = [
     id: "159-microcosmos-o-determinismo",
     title: "Microcosmos o Determinismo",
     titleEs: "Microcosmos o Determinismo",
-    year: 1950,
+    year: 1959,
     type: "painting",
     imagePath: "159-microcosmos-o-determinismo.jpg",
     tags: ["tempera", "masonite", "mural study"],
