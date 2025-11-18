@@ -359,7 +359,7 @@ export const translations = {
       home: "Inicio",
       life: "Vida",
       work: "Obra",
-      facts: "Realidades interesantes",
+      facts: "Curiosidades",
       references: "Referencias y más información",
     },
     home: {
@@ -603,7 +603,7 @@ export const translations = {
       ],
     },
     facts: {
-      pageTitle: "Realidades Interesantes",
+      pageTitle: "Curiosidades",
       items: [
         {
           title: "Amante de los gatos y los aves",
